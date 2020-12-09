@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE25CA5E253EE93400F33C71 /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE25CA5B253EE93400F33C71 /* AppsFlyerLib.framework */; };
+		FE38E17B235EFD0600CEEE56 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE38E17A235EFD0600CEEE56 /* libsqlite3.0.tbd */; };
+		FE40F6C72500E7CF008F5A08 /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6BB2500E7CE008F5A08 /* GoogleDataTransport.framework */; };
+		FE40F6C82500E7CF008F5A08 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6BC2500E7CE008F5A08 /* GoogleAppMeasurement.framework */; };
+		FE40F6C92500E7CF008F5A08 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6BD2500E7CE008F5A08 /* FirebaseCore.framework */; };
+		FE40F6CA2500E7CF008F5A08 /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6BE2500E7CE008F5A08 /* FirebaseRemoteConfig.framework */; };
+		FE40F6CB2500E7CF008F5A08 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6BF2500E7CE008F5A08 /* FirebaseAnalytics.framework */; };
+		FE40F6CC2500E7CF008F5A08 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6C12500E7CE008F5A08 /* GoogleUtilities.framework */; };
+		FE40F6CD2500E7CF008F5A08 /* PromisesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6C22500E7CE008F5A08 /* PromisesObjC.framework */; };
+		FE40F6CE2500E7CF008F5A08 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6C32500E7CE008F5A08 /* nanopb.framework */; };
+		FE40F6CF2500E7CF008F5A08 /* FirebaseInstallations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6C42500E7CE008F5A08 /* FirebaseInstallations.framework */; };
+		FE40F6D02500E7CF008F5A08 /* FirebaseABTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6C52500E7CE008F5A08 /* FirebaseABTesting.framework */; };
+		FE40F6D12500E7CF008F5A08 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6C62500E7CE008F5A08 /* FirebaseCoreDiagnostics.framework */; };
+		FE40F6D52500E7E9008F5A08 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6D32500E7E9008F5A08 /* FBSDKLoginKit.framework */; };
+		FE40F6D62500E7E9008F5A08 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6D42500E7E9008F5A08 /* FBSDKCoreKit.framework */; };
+		FE40F6D92500E7FC008F5A08 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40F6D82500E7FC008F5A08 /* File.swift */; };
+		FE40F6DB2500E80C008F5A08 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6DA2500E80C008F5A08 /* Accelerate.framework */; };
+		FE431C2C24FCF0C0004D439E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE431C2B24FCF0C0004D439E /* GoogleService-Info.plist */; };
+		FE66F8512254566100E41A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66F8502254566100E41A6A /* AppDelegate.m */; };
+		FE66F8542254566100E41A6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66F8532254566100E41A6A /* ViewController.m */; };
+		FE66F8572254566100E41A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE66F8552254566100E41A6A /* Main.storyboard */; };
+		FE66F8592254566100E41A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE66F8582254566100E41A6A /* Assets.xcassets */; };
+		FE66F85C2254566100E41A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE66F85A2254566100E41A6A /* LaunchScreen.storyboard */; };
+		FE66F85F2254566100E41A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66F85E2254566100E41A6A /* main.m */; };
+		FE7780A923A9C5F3000985D7 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7780A823A9C5F3000985D7 /* AuthenticationServices.framework */; };
+		FE8900DC23BF17B000C86C90 /* SocketRocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8900C923BF17AF00C86C90 /* SocketRocket.a */; };
+		FE8900DE23BF17B000C86C90 /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE8900CB23BF17AF00C86C90 /* Image.bundle */; };
+		FE8900DF23BF17B000C86C90 /* DINSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */; };
+		FE8900E023BF17B000C86C90 /* DINSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8900CD23BF17AF00C86C90 /* DINSDK.framework */; };
+		FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA02304ED97009D1C69 /* libicucore.tbd */; };
+		FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA22304F7DA009D1C69 /* libc++.tbd */; };
+		FEB8BD922558EF0A0064A277 /* FoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB8BD902558EF0A0064A277 /* FoxSDK.framework */; };
+		FEB8BD932558EF0A0064A277 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB8BD912558EF0A0064A277 /* TeaSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE66F876225456A100E41A6A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE25CA5B253EE93400F33C71 /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
+		FE38E17A235EFD0600CEEE56 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		FE40F6B92500E7A9008F5A08 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		FE40F6BB2500E7CE008F5A08 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = "<group>"; };
+		FE40F6BC2500E7CE008F5A08 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		FE40F6BD2500E7CE008F5A08 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		FE40F6BE2500E7CE008F5A08 /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseRemoteConfig.framework; sourceTree = "<group>"; };
+		FE40F6BF2500E7CE008F5A08 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		FE40F6C02500E7CE008F5A08 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		FE40F6C12500E7CE008F5A08 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		FE40F6C22500E7CE008F5A08 /* PromisesObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PromisesObjC.framework; sourceTree = "<group>"; };
+		FE40F6C32500E7CE008F5A08 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		FE40F6C42500E7CE008F5A08 /* FirebaseInstallations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = "<group>"; };
+		FE40F6C52500E7CE008F5A08 /* FirebaseABTesting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseABTesting.framework; sourceTree = "<group>"; };
+		FE40F6C62500E7CE008F5A08 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		FE40F6D32500E7E9008F5A08 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		FE40F6D42500E7E9008F5A08 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		FE40F6D72500E7FC008F5A08 /* NewSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		FE40F6D82500E7FC008F5A08 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		FE40F6DA2500E80C008F5A08 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FE431C2B24FCF0C0004D439E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FE66F84C2254566100E41A6A /* APPLE泰文SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APPLE泰文SDK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE66F84F2254566100E41A6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE66F8502254566100E41A6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE66F8522254566100E41A6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE66F8532254566100E41A6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE66F8562254566100E41A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE66F8582254566100E41A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE66F85B2254566100E41A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE66F85D2254566100E41A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE66F85E2254566100E41A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE7780A723A9C3D6000985D7 /* APPLE泰文SDK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "APPLE泰文SDK.entitlements"; sourceTree = "<group>"; };
+		FE7780A823A9C5F3000985D7 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		FE8900C923BF17AF00C86C90 /* SocketRocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = SocketRocket.a; sourceTree = "<group>"; };
+		FE8900CB23BF17AF00C86C90 /* Image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Image.bundle; sourceTree = "<group>"; };
+		FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DINSDKBundle.bundle; sourceTree = "<group>"; };
+		FE8900CD23BF17AF00C86C90 /* DINSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DINSDK.framework; sourceTree = "<group>"; };
+		FE918DA02304ED97009D1C69 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		FE918DA22304F7DA009D1C69 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FE918DA42304F803009D1C69 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		FE918DA62304F826009D1C69 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		FEB8BD902558EF0A0064A277 /* FoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FoxSDK.framework; sourceTree = "<group>"; };
+		FEB8BD912558EF0A0064A277 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE66F8492254566100E41A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE40F6DB2500E80C008F5A08 /* Accelerate.framework in Frameworks */,
+				FE7780A923A9C5F3000985D7 /* AuthenticationServices.framework in Frameworks */,
+				FE38E17B235EFD0600CEEE56 /* libsqlite3.0.tbd in Frameworks */,
+				FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */,
+				FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */,
+				FE40F6CD2500E7CF008F5A08 /* PromisesObjC.framework in Frameworks */,
+				FE40F6D52500E7E9008F5A08 /* FBSDKLoginKit.framework in Frameworks */,
+				FE40F6CF2500E7CF008F5A08 /* FirebaseInstallations.framework in Frameworks */,
+				FE40F6CB2500E7CF008F5A08 /* FirebaseAnalytics.framework in Frameworks */,
+				FE40F6C82500E7CF008F5A08 /* GoogleAppMeasurement.framework in Frameworks */,
+				FE40F6D62500E7E9008F5A08 /* FBSDKCoreKit.framework in Frameworks */,
+				FE8900DC23BF17B000C86C90 /* SocketRocket.a in Frameworks */,
+				FE40F6C72500E7CF008F5A08 /* GoogleDataTransport.framework in Frameworks */,
+				FE40F6CA2500E7CF008F5A08 /* FirebaseRemoteConfig.framework in Frameworks */,
+				FE40F6CC2500E7CF008F5A08 /* GoogleUtilities.framework in Frameworks */,
+				FEB8BD922558EF0A0064A277 /* FoxSDK.framework in Frameworks */,
+				FE25CA5E253EE93400F33C71 /* AppsFlyerLib.framework in Frameworks */,
+				FE8900E023BF17B000C86C90 /* DINSDK.framework in Frameworks */,
+				FE40F6C92500E7CF008F5A08 /* FirebaseCore.framework in Frameworks */,
+				FE40F6CE2500E7CF008F5A08 /* nanopb.framework in Frameworks */,
+				FE40F6D12500E7CF008F5A08 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				FE40F6D02500E7CF008F5A08 /* FirebaseABTesting.framework in Frameworks */,
+				FEB8BD932558EF0A0064A277 /* TeaSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE40F6BA2500E7CE008F5A08 /* google */ = {
+			isa = PBXGroup;
+			children = (
+				FE40F6BB2500E7CE008F5A08 /* GoogleDataTransport.framework */,
+				FE40F6BC2500E7CE008F5A08 /* GoogleAppMeasurement.framework */,
+				FE40F6BD2500E7CE008F5A08 /* FirebaseCore.framework */,
+				FE40F6BE2500E7CE008F5A08 /* FirebaseRemoteConfig.framework */,
+				FE40F6BF2500E7CE008F5A08 /* FirebaseAnalytics.framework */,
+				FE40F6C02500E7CE008F5A08 /* Firebase.h */,
+				FE40F6C12500E7CE008F5A08 /* GoogleUtilities.framework */,
+				FE40F6C22500E7CE008F5A08 /* PromisesObjC.framework */,
+				FE40F6C32500E7CE008F5A08 /* nanopb.framework */,
+				FE40F6C42500E7CE008F5A08 /* FirebaseInstallations.framework */,
+				FE40F6C52500E7CE008F5A08 /* FirebaseABTesting.framework */,
+				FE40F6C62500E7CE008F5A08 /* FirebaseCoreDiagnostics.framework */,
+			);
+			path = google;
+			sourceTree = "<group>";
+		};
+		FE40F6D22500E7E9008F5A08 /* fb7.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				FE40F6D32500E7E9008F5A08 /* FBSDKLoginKit.framework */,
+				FE40F6D42500E7E9008F5A08 /* FBSDKCoreKit.framework */,
+			);
+			path = fb7.1.1;
+			sourceTree = "<group>";
+		};
+		FE66F8432254566100E41A6A = {
+			isa = PBXGroup;
+			children = (
+				FE66F84E2254566100E41A6A /* NewSDKDemo */,
+				FE66F84D2254566100E41A6A /* Products */,
+				FE918D9F2304ED97009D1C69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE66F84D2254566100E41A6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE66F84C2254566100E41A6A /* APPLE泰文SDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE66F84E2254566100E41A6A /* NewSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FE8900B923BF17AF00C86C90 /* libs */,
+				FE7780A723A9C3D6000985D7 /* APPLE泰文SDK.entitlements */,
+				FE66F84F2254566100E41A6A /* AppDelegate.h */,
+				FE66F8502254566100E41A6A /* AppDelegate.m */,
+				FE66F8522254566100E41A6A /* ViewController.h */,
+				FE66F8532254566100E41A6A /* ViewController.m */,
+				FE66F8552254566100E41A6A /* Main.storyboard */,
+				FE66F8582254566100E41A6A /* Assets.xcassets */,
+				FE66F85A2254566100E41A6A /* LaunchScreen.storyboard */,
+				FE66F85D2254566100E41A6A /* Info.plist */,
+				FE66F85E2254566100E41A6A /* main.m */,
+				FE40F6D82500E7FC008F5A08 /* File.swift */,
+				FE40F6D72500E7FC008F5A08 /* NewSDKDemo-Bridging-Header.h */,
+			);
+			path = NewSDKDemo;
+			sourceTree = "<group>";
+		};
+		FE8900B923BF17AF00C86C90 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				FEB8BD902558EF0A0064A277 /* FoxSDK.framework */,
+				FEB8BD912558EF0A0064A277 /* TeaSDK.framework */,
+				FE25CA5B253EE93400F33C71 /* AppsFlyerLib.framework */,
+				FE40F6B92500E7A9008F5A08 /* SVProgressHUD.bundle */,
+				FE431C2B24FCF0C0004D439E /* GoogleService-Info.plist */,
+				FE8900BA23BF17AF00C86C90 /* firSDK */,
+				FE8900C423BF17AF00C86C90 /* fb */,
+				FE8900C923BF17AF00C86C90 /* SocketRocket.a */,
+				FE8900CB23BF17AF00C86C90 /* Image.bundle */,
+				FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */,
+				FE8900CD23BF17AF00C86C90 /* DINSDK.framework */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		FE8900BA23BF17AF00C86C90 /* firSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FE40F6BA2500E7CE008F5A08 /* google */,
+			);
+			path = firSDK;
+			sourceTree = "<group>";
+		};
+		FE8900C423BF17AF00C86C90 /* fb */ = {
+			isa = PBXGroup;
+			children = (
+				FE40F6D22500E7E9008F5A08 /* fb7.1.1 */,
+			);
+			path = fb;
+			sourceTree = "<group>";
+		};
+		FE918D9F2304ED97009D1C69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE40F6DA2500E80C008F5A08 /* Accelerate.framework */,
+				FE7780A823A9C5F3000985D7 /* AuthenticationServices.framework */,
+				FE38E17A235EFD0600CEEE56 /* libsqlite3.0.tbd */,
+				FE918DA62304F826009D1C69 /* libc++abi.tbd */,
+				FE918DA42304F803009D1C69 /* libc++.1.tbd */,
+				FE918DA22304F7DA009D1C69 /* libc++.tbd */,
+				FE918DA02304ED97009D1C69 /* libicucore.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE66F84B2254566100E41A6A /* NewSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE66F8622254566100E41A6A /* Build configuration list for PBXNativeTarget "NewSDKDemo" */;
+			buildPhases = (
+				FE66F8482254566100E41A6A /* Sources */,
+				FE66F8492254566100E41A6A /* Frameworks */,
+				FE66F84A2254566100E41A6A /* Resources */,
+				FE66F876225456A100E41A6A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewSDKDemo;
+			productName = NewSDKDemo;
+			productReference = FE66F84C2254566100E41A6A /* APPLE泰文SDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE66F8442254566100E41A6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = project;
+				TargetAttributes = {
+					FE66F84B2254566100E41A6A = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1160;
+					};
+				};
+			};
+			buildConfigurationList = FE66F8472254566100E41A6A /* Build configuration list for PBXProject "NewSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE66F8432254566100E41A6A;
+			productRefGroup = FE66F84D2254566100E41A6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE66F84B2254566100E41A6A /* NewSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE66F84A2254566100E41A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8900DF23BF17B000C86C90 /* DINSDKBundle.bundle in Resources */,
+				FE66F85C2254566100E41A6A /* LaunchScreen.storyboard in Resources */,
+				FE66F8592254566100E41A6A /* Assets.xcassets in Resources */,
+				FE8900DE23BF17B000C86C90 /* Image.bundle in Resources */,
+				FE66F8572254566100E41A6A /* Main.storyboard in Resources */,
+				FE431C2C24FCF0C0004D439E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE66F8482254566100E41A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE66F8542254566100E41A6A /* ViewController.m in Sources */,
+				FE40F6D92500E7FC008F5A08 /* File.swift in Sources */,
+				FE66F85F2254566100E41A6A /* main.m in Sources */,
+				FE66F8512254566100E41A6A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE66F8552254566100E41A6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE66F8562254566100E41A6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE66F85A2254566100E41A6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE66F85B2254566100E41A6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE66F8602254566100E41A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE66F8612254566100E41A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE66F8632254566100E41A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_ENTITLEMENTS = "NewSDKDemo/APPLE泰文SDK.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 59W3TX8HA3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NewSDKDemo/fb",
+					"$(PROJECT_DIR)/NewSDKDemo",
+					"$(PROJECT_DIR)/NewSDKDemo/firSDK",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/firSDK",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/fb",
+					"$(PROJECT_DIR)/NewSDKDemo/libs",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/firSDK/google",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/fb/fb7.1.1",
+				);
+				INFOPLIST_FILE = NewSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NewSDKDemo",
+					"$(PROJECT_DIR)/NewSDKDemo/libs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.th.slg;
+				PRODUCT_NAME = "APPLE泰文SDK";
+				PROVISIONING_PROFILE_SPECIFIER = thslg_dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "NewSDKDemo/NewSDKDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE66F8642254566100E41A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_ENTITLEMENTS = "NewSDKDemo/APPLE泰文SDK.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 59W3TX8HA3;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NewSDKDemo/fb",
+					"$(PROJECT_DIR)/NewSDKDemo",
+					"$(PROJECT_DIR)/NewSDKDemo/firSDK",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/firSDK",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/fb",
+					"$(PROJECT_DIR)/NewSDKDemo/libs",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/firSDK/google",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/fb/fb7.1.1",
+				);
+				INFOPLIST_FILE = NewSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NewSDKDemo",
+					"$(PROJECT_DIR)/NewSDKDemo/libs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.th.slg;
+				PRODUCT_NAME = "APPLE泰文SDK";
+				PROVISIONING_PROFILE_SPECIFIER = thslg_dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "NewSDKDemo/NewSDKDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE66F8472254566100E41A6A /* Build configuration list for PBXProject "NewSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE66F8602254566100E41A6A /* Debug */,
+				FE66F8612254566100E41A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE66F8622254566100E41A6A /* Build configuration list for PBXNativeTarget "NewSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE66F8632254566100E41A6A /* Debug */,
+				FE66F8642254566100E41A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE66F8442254566100E41A6A /* Project object */;
+}
