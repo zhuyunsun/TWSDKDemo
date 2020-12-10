@@ -18,13 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSDictionary *initDict = @{@"Client_id": @"10737",
-                               @"Client_secret": @"VyiXTaXyMvzEPOYkrcgepQ==",
-                               @"AppleID": @"1485186212",
+    NSDictionary *initDict = @{@"Client_id": @"1094700",
+                               @"Client_secret": @"L6JMm3XBGpKdPQMqtLoNEA==",
+                               @"AppleID": @"1524404900",
                                @"Language": @"TH",
                                @"Currency": @"USD"
                                };
-
 
 //    NSDictionary *initDict = @{@"Client_id": @"1094700",
 //                               @"Client_secret": @"L6JMm3XBGpKdPQMqtLoNEA==",
