@@ -11,6 +11,7 @@
 		FE40F6D92500E7FC008F5A08 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40F6D82500E7FC008F5A08 /* File.swift */; };
 		FE40F6DB2500E80C008F5A08 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6DA2500E80C008F5A08 /* Accelerate.framework */; };
 		FE431C2C24FCF0C0004D439E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE431C2B24FCF0C0004D439E /* GoogleService-Info.plist */; };
+		FE4508622588501500D273A6 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4508612588501500D273A6 /* TeaSDK.framework */; };
 		FE66F8512254566100E41A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66F8502254566100E41A6A /* AppDelegate.m */; };
 		FE66F8542254566100E41A6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66F8532254566100E41A6A /* ViewController.m */; };
 		FE66F8572254566100E41A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE66F8552254566100E41A6A /* Main.storyboard */; };
@@ -24,7 +25,6 @@
 		FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA02304ED97009D1C69 /* libicucore.tbd */; };
 		FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA22304F7DA009D1C69 /* libc++.tbd */; };
 		FEB8BD922558EF0A0064A277 /* FoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB8BD902558EF0A0064A277 /* FoxSDK.framework */; };
-		FEB8BD932558EF0A0064A277 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB8BD912558EF0A0064A277 /* TeaSDK.framework */; };
 		FEEACBC12581AB2C00BFA6B4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */; };
 		FEEACBD72581AEC400BFA6B4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEACBC52581AEC400BFA6B4 /* FBSDKLoginKit.framework */; };
 		FEEACBD82581AEC400BFA6B4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEACBC62581AEC400BFA6B4 /* FBSDKCoreKit.framework */; };
@@ -62,6 +62,7 @@
 		FE40F6D82500E7FC008F5A08 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		FE40F6DA2500E80C008F5A08 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		FE431C2B24FCF0C0004D439E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FE4508612588501500D273A6 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TeaSDK.framework; path = NewSDKDemo/libs/TeaSDK.framework; sourceTree = SOURCE_ROOT; };
 		FE66F84C2254566100E41A6A /* APPLE泰文SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APPLE泰文SDK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE66F84F2254566100E41A6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE66F8502254566100E41A6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,7 +83,6 @@
 		FE918DA42304F803009D1C69 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		FE918DA62304F826009D1C69 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		FEB8BD902558EF0A0064A277 /* FoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FoxSDK.framework; sourceTree = "<group>"; };
-		FEB8BD912558EF0A0064A277 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		FEEACBC52581AEC400BFA6B4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FEEACBC62581AEC400BFA6B4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
@@ -126,10 +126,10 @@
 				FE8900DC23BF17B000C86C90 /* SocketRocket.a in Frameworks */,
 				FEEACBE52581AEC400BFA6B4 /* AppsFlyerLib.framework in Frameworks */,
 				FEB8BD922558EF0A0064A277 /* FoxSDK.framework in Frameworks */,
-				FEB8BD932558EF0A0064A277 /* TeaSDK.framework in Frameworks */,
 				FEEACBE32581AEC400BFA6B4 /* FirebaseCoreDiagnostics.framework in Frameworks */,
 				FEEACBDE2581AEC400BFA6B4 /* GoogleUtilities.framework in Frameworks */,
 				FEEACBDD2581AEC400BFA6B4 /* FirebaseAnalytics.framework in Frameworks */,
+				FE4508622588501500D273A6 /* TeaSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +179,6 @@
 				FEEACBC32581AEC400BFA6B4 /* ThirdPart */,
 				FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */,
 				FEB8BD902558EF0A0064A277 /* FoxSDK.framework */,
-				FEB8BD912558EF0A0064A277 /* TeaSDK.framework */,
 				FE431C2B24FCF0C0004D439E /* GoogleService-Info.plist */,
 				FE8900C923BF17AF00C86C90 /* SocketRocket.a */,
 				FE8900CB23BF17AF00C86C90 /* Image.bundle */,
@@ -205,6 +204,7 @@
 		FEEACBC32581AEC400BFA6B4 /* ThirdPart */ = {
 			isa = PBXGroup;
 			children = (
+				FE4508612588501500D273A6 /* TeaSDK.framework */,
 				FEEACBC42581AEC400BFA6B4 /* fb7.1.1 */,
 				FEEACBC72581AEC400BFA6B4 /* NewGoogle */,
 				FEEACBD42581AEC400BFA6B4 /* DINSDK.framework */,
@@ -405,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -458,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
