@@ -4,26 +4,41 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>FOXLog.md</key>
+		<data>
+		rX32OdodlLXA2AFv+sJ5eUiSvYY=
+		</data>
 		<key>Headers/FoxServer.h</key>
 		<data>
-		FTbdWNYh9sTTkhMvgVYcDdJ9b3c=
+		fbVWyly1bqzNbPk9aF1a2wSkCS0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Y0B4qr+5Wls2TmC9MWd5rnblb7w=
+		dCla4hlESOPxxXuDY89Jvdjff4k=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>FOXLog.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rX32OdodlLXA2AFv+sJ5eUiSvYY=
+			</data>
+			<key>hash2</key>
+			<data>
+			W40PWp/cYKUjny4ABMUB/qQk0DZ80BJKmGfHvm9xw4Q=
+			</data>
+		</dict>
 		<key>Headers/FoxServer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FTbdWNYh9sTTkhMvgVYcDdJ9b3c=
+			fbVWyly1bqzNbPk9aF1a2wSkCS0=
 			</data>
 			<key>hash2</key>
 			<data>
-			P5vcdo5QDEaJPIVYp8jLBNVo3Ml5qAae7pu3DCRXcQw=
+			2Nz+1Alg+LKZBb4CiIZhIYpNmwKWjoaLj0aeUDgMOhc=
 			</data>
 		</dict>
 	</dict>

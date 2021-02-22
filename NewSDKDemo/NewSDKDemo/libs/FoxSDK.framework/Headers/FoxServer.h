@@ -1,5 +1,12 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
+FOUNDATION_STATIC_INLINE NSString* FOXSDKVERSION(){
+    NSString *VERSION = @"1.0.0";
+    NSLog(@"版本 = %@",VERSION);
+    return VERSION;
+}
+
 //用户信息block处理
 /*
  block说明

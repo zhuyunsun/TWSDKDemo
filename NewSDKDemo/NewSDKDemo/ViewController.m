@@ -54,14 +54,24 @@
     [self.view addSubview:bindButton];
     
     
+    
     UIButton *gmButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    gmButton.frame = CGRectMake(0, 0, 80, 35);
-    gmButton.center = CGPointMake(self.view.center.x, self.view.center.y + count);;
+    gmButton.frame = CGRectMake(0, 0, 180, 35);
+    gmButton.center = CGPointMake(self.view.center.x - 100, self.view.center.y + count);;
     gmButton.backgroundColor = [UIColor whiteColor];
     [gmButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [gmButton setTitle:@"GM" forState:UIControlStateNormal];
+    [gmButton setTitle:@"manager" forState:UIControlStateNormal];
     [gmButton addTarget:self action:@selector(gmButtonAction) forControlEvents:UIControlEventTouchDown];
     [self.view addSubview:gmButton];
+    
+    UIButton *gmButton1 = [UIButton buttonWithType:UIButtonTypeCustom];
+    gmButton1.frame = CGRectMake(0, 0, 80, 35);
+    gmButton1.center = CGPointMake(self.view.center.x + 100, self.view.center.y + count);;
+    gmButton1.backgroundColor = [UIColor whiteColor];
+    [gmButton1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [gmButton1 setTitle:@"GM" forState:UIControlStateNormal];
+    [gmButton1 addTarget:self action:@selector(gmAction) forControlEvents:UIControlEventTouchDown];
+    [self.view addSubview:gmButton1];
 
     
     UIButton *niceButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -74,11 +84,14 @@
     [self.view addSubview:niceButton];
 
 }
+-(void)gmAction{
+    [[ShowMilkCommon shareInstance] contactGM];
+}
 -(void)niceButtonAction{
     [[ShowMilkCommon shareInstance] goToAppsDetail];
 }
 -(void)gmButtonAction{
-    [[ShowMilkCommon shareInstance] contactGM];
+    [[ShowMilkCommon shareInstance] userManager];
 }
 -(void)bindButtonAction{
     [[ShowMilkCommon shareInstance] bindingUser];
