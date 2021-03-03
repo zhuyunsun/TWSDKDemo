@@ -3,7 +3,7 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 UIKIT_STATIC_INLINE NSString *MY_SDK_VERSION(){
-    return @"2.1.4";
+    return @"2.1.5";
 }
 /*
  block说明
@@ -40,12 +40,13 @@ UIKIT_STATIC_INLINE NSString* enter_show(){
     return @"game_completed";//进入游戏
 }
 
-@protocol LgDelegate,SerDelegate;
+@protocol LgDelegate,SerDelegate,ReDelegate;
 @interface ShowMilkCommon : NSObject
 @property(nonatomic,copy)NSDictionary *mgDic;
 @property(nonatomic,readonly)NSString *UID;
 @property(nonatomic,weak)id<LgDelegate>delegate;
 @property(nonatomic,weak)id<SerDelegate>SEDelegate;
+@property(nonatomic,weak)id<ReDelegate>ReDelegate;
 +(ShowMilkCommon *)shareInstance;
 -(void)loginAutoIN:(BOOL)isAuto;//展示登陆界面:在游戏登录界面传YES,在游戏里面切换账号传NO
 -(void)hdLgView;//移除登陆和注册界面
@@ -76,6 +77,8 @@ UIKIT_STATIC_INLINE NSString* enter_show(){
 -(void)enterGameEventRoleID:(NSString *)rid andSid:(NSString *)sid eventName:(NSString *)event count:(NSString *)count;
 //推送通知方法
 -(void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
+//激励广告接口
+-(void)loadRewordVideo;
 @end
 //登陆状态的回调
 @protocol LgDelegate <NSObject>
@@ -87,5 +90,31 @@ UIKIT_STATIC_INLINE NSString* enter_show(){
 @protocol SerDelegate <NSObject>
 @optional
 -(void)serCode:(BackState)state;
+@end
+
+@protocol ReDelegate <NSObject>
+@optional
+/*
+ 加载完成;
+ 在这个方法回调之后再调用
+ //激励广告接口
+  -(void)loadRewordVideo;
+ 否则不会有展示
+ */
+-(void)canShowRewardVideo;
+///播放错误
+-(void)loadFailRewadVideo:(NSError *)error;
+/// 正常播放完毕,应该在这里发放奖励
+-(void)didReceiveRewadVideo;
+/// 视频已经被关闭
+-(void)didCloseVideo;
+///视频已经打开
+-(void)didOpenVideo;
+///视频开始播放
+-(void)beginVideo;
+///视频播放完毕
+-(void)endVideo;
+///视频播放完毕之后被点击
+-(void)didClickVideo;
 @end
 NS_ASSUME_NONNULL_END

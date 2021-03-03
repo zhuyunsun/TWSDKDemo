@@ -36,7 +36,8 @@
 		FE8900DF23BF17B000C86C90 /* DINSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */; };
 		FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA02304ED97009D1C69 /* libicucore.tbd */; };
 		FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA22304F7DA009D1C69 /* libc++.tbd */; };
-		FED94BA025EE1BE400815D90 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94B9F25EE1BE400815D90 /* TeaSDK.framework */; };
+		FE9B2C8625EF8B0E00C501CF /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9B2C8325EF8B0E00C501CF /* TeaSDK.framework */; };
+		FE9B2C8725EF8B0E00C501CF /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9B2C8525EF8B0E00C501CF /* IronSource.framework */; };
 		FED94BA425EE1BF900815D90 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94BA225EE1BF900815D90 /* FBSDKLoginKit.framework */; };
 		FED94BA525EE1BF900815D90 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94BA325EE1BF900815D90 /* FBSDKCoreKit.framework */; };
 		FED94BA725EE1C2300815D90 /* FoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94BA625EE1C2300815D90 /* FoxSDK.framework */; };
@@ -95,7 +96,8 @@
 		FE918DA22304F7DA009D1C69 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		FE918DA42304F803009D1C69 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		FE918DA62304F826009D1C69 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
-		FED94B9F25EE1BE400815D90 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
+		FE9B2C8325EF8B0E00C501CF /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
+		FE9B2C8525EF8B0E00C501CF /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSource.framework; sourceTree = "<group>"; };
 		FED94BA225EE1BF900815D90 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FED94BA325EE1BF900815D90 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		FED94BA625EE1C2300815D90 /* FoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FoxSDK.framework; sourceTree = "<group>"; };
@@ -124,12 +126,13 @@
 				FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */,
 				FED94BA425EE1BF900815D90 /* FBSDKLoginKit.framework in Frameworks */,
 				FED94BA525EE1BF900815D90 /* FBSDKCoreKit.framework in Frameworks */,
+				FE9B2C8725EF8B0E00C501CF /* IronSource.framework in Frameworks */,
 				FE47595525E388C700F7BCC8 /* DINSDK.framework in Frameworks */,
 				FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */,
 				FE47595F25E388C800F7BCC8 /* GoogleUtilities.framework in Frameworks */,
 				FE47595A25E388C800F7BCC8 /* GoogleDataTransport.framework in Frameworks */,
 				FE8900DC23BF17B000C86C90 /* SocketRocket.a in Frameworks */,
-				FED94BA025EE1BE400815D90 /* TeaSDK.framework in Frameworks */,
+				FE9B2C8625EF8B0E00C501CF /* TeaSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,9 +206,10 @@
 		FE8900B923BF17AF00C86C90 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				FE9B2C8425EF8B0E00C501CF /* IS7.1.1 */,
+				FE9B2C8325EF8B0E00C501CF /* TeaSDK.framework */,
 				FED94BA625EE1C2300815D90 /* FoxSDK.framework */,
 				FED94BA125EE1BF900815D90 /* fb9.1 */,
-				FED94B9F25EE1BE400815D90 /* TeaSDK.framework */,
 				FE44280C25E79AB600CD614F /* AF6.2.2 */,
 				FE47594025E388C700F7BCC8 /* DINSDK.framework */,
 				FE47594725E388C700F7BCC8 /* google7.5.0 */,
@@ -230,6 +234,14 @@
 				FE918DA02304ED97009D1C69 /* libicucore.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE9B2C8425EF8B0E00C501CF /* IS7.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				FE9B2C8525EF8B0E00C501CF /* IronSource.framework */,
+			);
+			path = IS7.1.1;
 			sourceTree = "<group>";
 		};
 		FED94BA125EE1BF900815D90 /* fb9.1 */ = {
@@ -482,6 +494,7 @@
 					"$(PROJECT_DIR)/NewSDKDemo/libs/google7.5.0",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/AF6.2.2",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/fb9.1",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS7.1.1",
 				);
 				INFOPLIST_FILE = NewSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -529,6 +542,7 @@
 					"$(PROJECT_DIR)/NewSDKDemo/libs/google7.5.0",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/AF6.2.2",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/fb9.1",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS7.1.1",
 				);
 				INFOPLIST_FILE = NewSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
