@@ -26,7 +26,7 @@
     [ShowMilkCommon shareInstance].ReDelegate = self;
     self.loadDone = NO;
     
-    dataSource = @[@"Login",@"pay",@"bind",@"用户中心",@"GM",@"五星好评",@"激励广告",@"当前登录用户类型"];
+    dataSource = @[@"Login",@"pay",@"bind",@"用户中心",@"GM",@"五星好评",@"初始化激励广告",@"激励广告",@"当前登录用户类型"];
     
     CGFloat width = [UIScreen mainScreen].bounds.size.width;
     CGFloat height = [UIScreen mainScreen].bounds.size.height;
@@ -68,13 +68,16 @@
         [[ShowMilkCommon shareInstance] goToAppsDetail];
     }
     if (index == 6) {
+        [[ShowMilkCommon shareInstance] ironSourceInitSid:@"001" rid:@"23213213"];
+    }
+    if (index == 7) {
         if (self.loadDone == NO) {
             NSLog(@"等待视频加载完成");
             return;
         }
         [[ShowMilkCommon shareInstance] loadRewordVideo];
     }
-    if (index == 7) {
+    if (index == 8) {
         LoginType type = [[ShowMilkCommon shareInstance] getLoginType];NSLog(@"type = %ld",type);
     }
 
