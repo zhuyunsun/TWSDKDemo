@@ -3,7 +3,7 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 UIKIT_STATIC_INLINE NSString *MY_SDK_VERSION(){
-    return @"2.1.6";
+    return @"2.1.7";
 }
 /*
  block说明
@@ -80,8 +80,8 @@ UIKIT_STATIC_INLINE NSString* enter_show(){
 
 //激励广告的初始化,需要账号登录成功之后,在角色进入游戏的时候调用:sid服务器ID,rid角色ID
 -(void)ironSourceInitSid:(NSString *)sid rid:(NSString *)rid;
-//激励广告接口:需要canShowRewardVideo协议回调之后才可以调用该接口
--(void)loadRewordVideo;
+//激励广告接口:需要canShowRewardVideo协议回调之后才可以调用该接口,placeName  CP透传参数
+-(void)loadRewordVideo:(NSString *)placeName;
 @end
 //登陆状态的回调
 @protocol LgDelegate <NSObject>
@@ -98,10 +98,10 @@ UIKIT_STATIC_INLINE NSString* enter_show(){
 @protocol ReDelegate <NSObject>
 @optional
 /*
- 加载完成;
+ 初始化成功,加载完成;
  在这个方法回调之后再调用
  //激励广告接口
-  -(void)loadRewordVideo;
+  -(void)loadRewordVideo:(NSString *)placeName;
  否则不会有展示
  */
 -(void)canShowRewardVideo;

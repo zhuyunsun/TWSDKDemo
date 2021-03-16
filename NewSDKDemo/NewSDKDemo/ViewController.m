@@ -26,7 +26,9 @@
     [ShowMilkCommon shareInstance].ReDelegate = self;
     self.loadDone = NO;
     
-    dataSource = @[@"Login",@"pay",@"bind",@"用户中心",@"GM",@"五星好评",@"初始化激励广告",@"激励广告",@"当前登录用户类型"];
+    dataSource = @[@"Login",@"pay",@"bind",@"用户中心",
+                   @"GM",@"五星好评",@"初始化激励广告",
+                   @"展示激励广告",@"当前登录用户类型"];
     
     CGFloat width = [UIScreen mainScreen].bounds.size.width;
     CGFloat height = [UIScreen mainScreen].bounds.size.height;
@@ -75,7 +77,7 @@
             NSLog(@"等待视频加载完成");
             return;
         }
-        [[ShowMilkCommon shareInstance] loadRewordVideo];
+        [[ShowMilkCommon shareInstance] loadRewordVideo:@"CP自定义透传参数"];
     }
     if (index == 8) {
         LoginType type = [[ShowMilkCommon shareInstance] getLoginType];NSLog(@"type = %ld",type);

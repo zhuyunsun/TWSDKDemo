@@ -36,8 +36,8 @@
 		FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA02304ED97009D1C69 /* libicucore.tbd */; };
 		FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA22304F7DA009D1C69 /* libc++.tbd */; };
 		FE9B2C8725EF8B0E00C501CF /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9B2C8525EF8B0E00C501CF /* IronSource.framework */; };
-		FEB7AED925FB0D6C00139607 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB7AED725FB0D6C00139607 /* TeaSDK.framework */; };
 		FEB7AEDA25FB0D6C00139607 /* DINSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB7AED825FB0D6C00139607 /* DINSDK.framework */; };
+		FEC7756126007F180048C0E2 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC7756026007F180048C0E2 /* TeaSDK.framework */; };
 		FED94BA425EE1BF900815D90 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94BA225EE1BF900815D90 /* FBSDKLoginKit.framework */; };
 		FED94BA525EE1BF900815D90 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94BA325EE1BF900815D90 /* FBSDKCoreKit.framework */; };
 		FED94BA725EE1C2300815D90 /* FoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94BA625EE1C2300815D90 /* FoxSDK.framework */; };
@@ -96,8 +96,8 @@
 		FE918DA42304F803009D1C69 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		FE918DA62304F826009D1C69 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		FE9B2C8525EF8B0E00C501CF /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSource.framework; sourceTree = "<group>"; };
-		FEB7AED725FB0D6C00139607 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FEB7AED825FB0D6C00139607 /* DINSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DINSDK.framework; sourceTree = "<group>"; };
+		FEC7756026007F180048C0E2 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FED94BA225EE1BF900815D90 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FED94BA325EE1BF900815D90 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		FED94BA625EE1C2300815D90 /* FoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FoxSDK.framework; sourceTree = "<group>"; };
@@ -109,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC7756126007F180048C0E2 /* TeaSDK.framework in Frameworks */,
 				FE47596125E388C800F7BCC8 /* nanopb.framework in Frameworks */,
 				FE47596225E388C800F7BCC8 /* FirebaseInstallations.framework in Frameworks */,
 				FE47596325E388C800F7BCC8 /* FirebaseABTesting.framework in Frameworks */,
@@ -132,7 +133,6 @@
 				FE47595F25E388C800F7BCC8 /* GoogleUtilities.framework in Frameworks */,
 				FE47595A25E388C800F7BCC8 /* GoogleDataTransport.framework in Frameworks */,
 				FE8900DC23BF17B000C86C90 /* SocketRocket.a in Frameworks */,
-				FEB7AED925FB0D6C00139607 /* TeaSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,8 +206,8 @@
 		FE8900B923BF17AF00C86C90 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				FEC7756026007F180048C0E2 /* TeaSDK.framework */,
 				FEB7AED825FB0D6C00139607 /* DINSDK.framework */,
-				FEB7AED725FB0D6C00139607 /* TeaSDK.framework */,
 				FE9B2C8425EF8B0E00C501CF /* IS7.1.1 */,
 				FED94BA625EE1C2300815D90 /* FoxSDK.framework */,
 				FED94BA125EE1BF900815D90 /* fb9.1 */,
