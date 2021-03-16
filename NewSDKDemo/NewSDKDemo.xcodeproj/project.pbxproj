@@ -206,6 +206,7 @@
 		FE8900B923BF17AF00C86C90 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				FE431C2B24FCF0C0004D439E /* GoogleService-Info.plist */,
 				FEC7756026007F180048C0E2 /* TeaSDK.framework */,
 				FEB7AED825FB0D6C00139607 /* DINSDK.framework */,
 				FE9B2C8425EF8B0E00C501CF /* IS7.1.1 */,
@@ -214,7 +215,6 @@
 				FE44280C25E79AB600CD614F /* AF6.2.2 */,
 				FE47594725E388C700F7BCC8 /* google7.5.0 */,
 				FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */,
-				FE431C2B24FCF0C0004D439E /* GoogleService-Info.plist */,
 				FE8900C923BF17AF00C86C90 /* SocketRocket.a */,
 				FE8900CB23BF17AF00C86C90 /* Image.bundle */,
 				FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */,
