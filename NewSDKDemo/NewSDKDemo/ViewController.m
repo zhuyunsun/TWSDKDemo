@@ -52,7 +52,9 @@
         //这里填写正确的支付信息
         dispatch_queue_t concurrent1 = dispatch_queue_create("concurrent1", DISPATCH_QUEUE_CONCURRENT);
         dispatch_async(concurrent1, ^{
-            [[ShowMilkCommon shareInstance] showMessage:@"com.th.myzs.199" orderNum:@"1123232312312" Money:@"1.99" Ctext:@"qeqe" address:@"eqe"];
+            NSUInteger number = arc4random() % 10000000 + 100000000000000;
+            NSString *num = [NSString stringWithFormat:@"%ld",(long)number];
+            [[ShowMilkCommon shareInstance] showMessage:@"com.th.myzs.199" orderNum:num Money:@"1.99" Ctext:@"qeqe" address:@"eqe"];
             [ShowMilkCommon shareInstance].SEDelegate = self;
 
         });

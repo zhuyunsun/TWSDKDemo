@@ -23,6 +23,7 @@
 		FE47596225E388C800F7BCC8 /* FirebaseInstallations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE47595125E388C700F7BCC8 /* FirebaseInstallations.framework */; };
 		FE47596325E388C800F7BCC8 /* FirebaseABTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE47595225E388C700F7BCC8 /* FirebaseABTesting.framework */; };
 		FE47596425E388C800F7BCC8 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE47595325E388C700F7BCC8 /* FirebaseCoreDiagnostics.framework */; };
+		FE5EEDB92608A21B00F349D4 /* DINSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5EEDB82608A21B00F349D4 /* DINSDK.framework */; };
 		FE66F8512254566100E41A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66F8502254566100E41A6A /* AppDelegate.m */; };
 		FE66F8542254566100E41A6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66F8532254566100E41A6A /* ViewController.m */; };
 		FE66F8572254566100E41A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE66F8552254566100E41A6A /* Main.storyboard */; };
@@ -36,7 +37,6 @@
 		FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA02304ED97009D1C69 /* libicucore.tbd */; };
 		FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA22304F7DA009D1C69 /* libc++.tbd */; };
 		FE9B2C8725EF8B0E00C501CF /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9B2C8525EF8B0E00C501CF /* IronSource.framework */; };
-		FEB7AEDA25FB0D6C00139607 /* DINSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB7AED825FB0D6C00139607 /* DINSDK.framework */; };
 		FEC7756126007F180048C0E2 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC7756026007F180048C0E2 /* TeaSDK.framework */; };
 		FED94BA425EE1BF900815D90 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94BA225EE1BF900815D90 /* FBSDKLoginKit.framework */; };
 		FED94BA525EE1BF900815D90 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94BA325EE1BF900815D90 /* FBSDKCoreKit.framework */; };
@@ -76,6 +76,7 @@
 		FE47595125E388C700F7BCC8 /* FirebaseInstallations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = "<group>"; };
 		FE47595225E388C700F7BCC8 /* FirebaseABTesting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseABTesting.framework; sourceTree = "<group>"; };
 		FE47595325E388C700F7BCC8 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		FE5EEDB82608A21B00F349D4 /* DINSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DINSDK.framework; sourceTree = "<group>"; };
 		FE66F84C2254566100E41A6A /* APPLE泰文SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APPLE泰文SDK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE66F84F2254566100E41A6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE66F8502254566100E41A6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,7 +97,6 @@
 		FE918DA42304F803009D1C69 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		FE918DA62304F826009D1C69 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		FE9B2C8525EF8B0E00C501CF /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSource.framework; sourceTree = "<group>"; };
-		FEB7AED825FB0D6C00139607 /* DINSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DINSDK.framework; sourceTree = "<group>"; };
 		FEC7756026007F180048C0E2 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FED94BA225EE1BF900815D90 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FED94BA325EE1BF900815D90 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
@@ -118,8 +118,8 @@
 				FE40F6DB2500E80C008F5A08 /* Accelerate.framework in Frameworks */,
 				FE44280E25E79AB600CD614F /* AppsFlyerLib.framework in Frameworks */,
 				FE47596425E388C800F7BCC8 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				FE5EEDB92608A21B00F349D4 /* DINSDK.framework in Frameworks */,
 				FE7780A923A9C5F3000985D7 /* AuthenticationServices.framework in Frameworks */,
-				FEB7AEDA25FB0D6C00139607 /* DINSDK.framework in Frameworks */,
 				FE38E17B235EFD0600CEEE56 /* libsqlite3.0.tbd in Frameworks */,
 				FE47595C25E388C800F7BCC8 /* FirebaseCore.framework in Frameworks */,
 				FE47595B25E388C800F7BCC8 /* GoogleAppMeasurement.framework in Frameworks */,
@@ -207,8 +207,8 @@
 			isa = PBXGroup;
 			children = (
 				FE431C2B24FCF0C0004D439E /* GoogleService-Info.plist */,
+				FE5EEDB82608A21B00F349D4 /* DINSDK.framework */,
 				FEC7756026007F180048C0E2 /* TeaSDK.framework */,
-				FEB7AED825FB0D6C00139607 /* DINSDK.framework */,
 				FE9B2C8425EF8B0E00C501CF /* IS7.1.1 */,
 				FED94BA625EE1C2300815D90 /* FoxSDK.framework */,
 				FED94BA125EE1BF900815D90 /* fb9.1 */,
