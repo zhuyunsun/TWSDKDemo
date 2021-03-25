@@ -22,7 +22,8 @@
                                @"Client_secret": @"L6JMm3XBGpKdPQMqtLoNEA==",
                                @"AppleID": @"1524404900",
                                @"Language": @"TH",
-                               @"Currency": @"USD"
+                               @"Currency": @"USD",
+                               @"RewardKey":@"ef32b641"
                                };
 
 //    NSDictionary *initDict = @{@"Client_id": @"1094700",
