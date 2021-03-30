@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE27109C260D6E2A00479C84 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE27109B260D6E2A00479C84 /* TeaSDK.framework */; };
+		FE2710E3261312D800479C84 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2710DF261312D700479C84 /* TeaSDK.framework */; };
+		FE2710E4261312D800479C84 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2710E1261312D800479C84 /* GoogleMobileAds.framework */; };
+		FE2710E5261312D800479C84 /* UserMessagingPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2710E2261312D800479C84 /* UserMessagingPlatform.framework */; };
 		FE38E17B235EFD0600CEEE56 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE38E17A235EFD0600CEEE56 /* libsqlite3.0.tbd */; };
 		FE40F6D92500E7FC008F5A08 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40F6D82500E7FC008F5A08 /* File.swift */; };
 		FE40F6DB2500E80C008F5A08 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6DA2500E80C008F5A08 /* Accelerate.framework */; };
@@ -58,7 +60,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FE27109B260D6E2A00479C84 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
+		FE2710DF261312D700479C84 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
+		FE2710E1261312D800479C84 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		FE2710E2261312D800479C84 /* UserMessagingPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserMessagingPlatform.framework; sourceTree = "<group>"; };
 		FE38E17A235EFD0600CEEE56 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		FE40F6D72500E7FC008F5A08 /* NewSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		FE40F6D82500E7FC008F5A08 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
@@ -109,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE27109C260D6E2A00479C84 /* TeaSDK.framework in Frameworks */,
+				FE2710E3261312D800479C84 /* TeaSDK.framework in Frameworks */,
 				FE47596125E388C800F7BCC8 /* nanopb.framework in Frameworks */,
 				FE47596225E388C800F7BCC8 /* FirebaseInstallations.framework in Frameworks */,
 				FE47596325E388C800F7BCC8 /* FirebaseABTesting.framework in Frameworks */,
@@ -122,6 +126,7 @@
 				FE7780A923A9C5F3000985D7 /* AuthenticationServices.framework in Frameworks */,
 				FE38E17B235EFD0600CEEE56 /* libsqlite3.0.tbd in Frameworks */,
 				FE47595C25E388C800F7BCC8 /* FirebaseCore.framework in Frameworks */,
+				FE2710E5261312D800479C84 /* UserMessagingPlatform.framework in Frameworks */,
 				FE47595B25E388C800F7BCC8 /* GoogleAppMeasurement.framework in Frameworks */,
 				FED94BA725EE1C2300815D90 /* FoxSDK.framework in Frameworks */,
 				FE47595D25E388C800F7BCC8 /* FirebaseRemoteConfig.framework in Frameworks */,
@@ -131,6 +136,7 @@
 				FE9B2C8725EF8B0E00C501CF /* IronSource.framework in Frameworks */,
 				FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */,
 				FE47595F25E388C800F7BCC8 /* GoogleUtilities.framework in Frameworks */,
+				FE2710E4261312D800479C84 /* GoogleMobileAds.framework in Frameworks */,
 				FE47595A25E388C800F7BCC8 /* GoogleDataTransport.framework in Frameworks */,
 				FE8900DC23BF17B000C86C90 /* SocketRocket.a in Frameworks */,
 			);
@@ -139,6 +145,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE2710E0261312D700479C84 /* google3.30 */ = {
+			isa = PBXGroup;
+			children = (
+				FE2710E1261312D800479C84 /* GoogleMobileAds.framework */,
+				FE2710E2261312D800479C84 /* UserMessagingPlatform.framework */,
+			);
+			path = google3.30;
+			sourceTree = "<group>";
+		};
 		FE44280C25E79AB600CD614F /* AF6.2.2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,7 +221,8 @@
 		FE8900B923BF17AF00C86C90 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				FE27109B260D6E2A00479C84 /* TeaSDK.framework */,
+				FE2710E0261312D700479C84 /* google3.30 */,
+				FE2710DF261312D700479C84 /* TeaSDK.framework */,
 				FE431C2B24FCF0C0004D439E /* GoogleService-Info.plist */,
 				FE5EEDB82608A21B00F349D4 /* DINSDK.framework */,
 				FE9B2C8425EF8B0E00C501CF /* IS7.1.1 */,
@@ -495,6 +511,7 @@
 					"$(PROJECT_DIR)/NewSDKDemo/libs/AF6.2.2",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/fb9.1",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/IS7.1.1",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/google3.30",
 				);
 				INFOPLIST_FILE = NewSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -543,6 +560,7 @@
 					"$(PROJECT_DIR)/NewSDKDemo/libs/AF6.2.2",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/fb9.1",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/IS7.1.1",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/google3.30",
 				);
 				INFOPLIST_FILE = NewSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
