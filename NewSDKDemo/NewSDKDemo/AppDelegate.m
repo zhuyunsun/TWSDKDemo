@@ -23,7 +23,7 @@
                                @"AppleID": @"1524404900",
                                @"Language": @"TH",
                                @"Currency": @"USD",
-                               @"RewardKey":@"ef32b641"
+                               @"RewardKey":@"f1a2ca89"
                                };
 
 //    NSDictionary *initDict = @{@"Client_id": @"1094700",
