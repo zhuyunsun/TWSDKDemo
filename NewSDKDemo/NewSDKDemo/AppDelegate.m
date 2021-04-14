@@ -18,20 +18,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSDictionary *initDict = @{@"Client_id": @"1094700",
-                               @"Client_secret": @"L6JMm3XBGpKdPQMqtLoNEA==",
-                               @"AppleID": @"1524404900",
-                               @"Language": @"TH",
-                               @"Currency": @"USD",
-                               @"RewardKey":@"f1a2ca89"
-                               };
-
 //    NSDictionary *initDict = @{@"Client_id": @"1094700",
 //                               @"Client_secret": @"L6JMm3XBGpKdPQMqtLoNEA==",
 //                               @"AppleID": @"1524404900",
 //                               @"Language": @"TH",
-//                               @"Currency": @"USD"
+//                               @"Currency": @"USD",
+//                               @"RewardKey":@"f1a2ca89"
 //                               };
+//
+    NSDictionary *initDict = @{@"Client_id": @"1095700",
+                               @"Client_secret": @"lzFj4bQac1DfHDSSVLyyWg==",
+                               @"AppleID": @"1540545758",
+                               @"Language": @"TH",
+                               @"Currency": @"USD",
+                               @"RewardKey":@"f1a2ca89"
+                               };
     [ShowMilkCommon shareInstance].mgDic = initDict;
     [[ShowMilkCommon shareInstance] application:application didFinishLaunchingWithOptions:launchOptions];
     ViewController *VC = [[ViewController alloc]init];
