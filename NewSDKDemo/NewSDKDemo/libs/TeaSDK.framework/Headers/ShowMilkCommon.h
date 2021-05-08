@@ -3,7 +3,7 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 UIKIT_STATIC_INLINE NSString *MY_SDK_VERSION(){
-    return @"2.2.4";
+    return @"2.2.5";
 }
 /*
  block说明

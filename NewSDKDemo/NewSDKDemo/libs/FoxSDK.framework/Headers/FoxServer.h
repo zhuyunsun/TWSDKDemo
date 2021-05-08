@@ -3,7 +3,7 @@
 
 FOUNDATION_STATIC_INLINE NSString* FOXSDKVERSION(){
     NSString *VERSION = @"1.0.0";
-    NSLog(@"版本 = %@",VERSION);
+    NSLog(@"TW__版本 = %@",VERSION);
     return VERSION;
 }
 
