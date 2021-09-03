@@ -33,6 +33,7 @@
                                @"Currency": @"USD",
                                @"RewardKey":@"f1a2ca89"
                                };
+    [[ShowMilkCommon shareInstance] ironSourceInitRewardKey:@"ef32b641"];
     [ShowMilkCommon shareInstance].mgDic = initDict;
     [[ShowMilkCommon shareInstance] application:application didFinishLaunchingWithOptions:launchOptions];
     ViewController *VC = [[ViewController alloc]init];

@@ -3,7 +3,7 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 UIKIT_STATIC_INLINE NSString *MY_SDK_VERSION(){
-    return @"2.2.6";
+    return @"2.2.7";
 }
 /*
  block说明
@@ -78,10 +78,11 @@ UIKIT_STATIC_INLINE NSString* enter_show(){
 //推送通知方法
 -(void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
 
-//激励广告的初始化,需要账号登录成功之后,在角色进入游戏的时候调用:sid服务器ID,rid角色ID
--(void)ironSourceInitSid:(NSString *)sid rid:(NSString *)rid;
-//激励广告接口:需要canShowRewardVideo协议回调之后才可以调用该接口,placeName  CP透传参数
--(void)loadRewordVideo:(NSString *)placeName;
+//激励广告的初始化,在didFinishLaunchingWithOptions中调用,rewardey广告key
+-(void)ironSourceInitRewardKey:(NSString *)rewardey;
+
+//激励广告接口:需要canShowRewardVideo协议回调之后才可以调用该接口,placeName  CP透传参数  sid:服务器id,rid:角色id
+-(void)loadRewordVideo:(NSString *)placeName sid:(NSString *)sid rid:(NSString *)rid;
 @end
 //登陆状态的回调
 @protocol LgDelegate <NSObject>

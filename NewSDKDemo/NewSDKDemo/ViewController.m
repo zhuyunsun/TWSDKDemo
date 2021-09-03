@@ -72,14 +72,14 @@
         [[ShowMilkCommon shareInstance] goToAppsDetail];
     }
     if (index == 6) {
-        [[ShowMilkCommon shareInstance] ironSourceInitSid:@"001" rid:@"23213213"];
+        
     }
     if (index == 7) {
         if (self.loadDone == NO) {
             NSLog(@"等待视频加载完成");
             return;
         }
-        [[ShowMilkCommon shareInstance] loadRewordVideo:@"CP自定义透传参数"];
+        [[ShowMilkCommon shareInstance] loadRewordVideo:@"cp传的扩展字段" sid:@"001" rid:@"0988e312312"];
     }
     if (index == 8) {
         LoginType type = [[ShowMilkCommon shareInstance] getLoginType];NSLog(@"type = %ld",type);

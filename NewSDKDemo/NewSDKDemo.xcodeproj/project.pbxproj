@@ -11,11 +11,16 @@
 		FE176BA6263664D100A712FF /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE176BA5263664D100A712FF /* AppTrackingTransparency.framework */; };
 		FE232B082615ABBB00339187 /* ISAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE232B012615ABBB00339187 /* ISAdMobAdapter.framework */; };
 		FE232B092615ABBB00339187 /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE232B022615ABBB00339187 /* IronSource.framework */; };
-		FE232B0A2615ABBB00339187 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE232B032615ABBB00339187 /* GoogleMobileAds.framework */; };
 		FE232B0B2615ABBB00339187 /* ISFacebookAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE232B052615ABBB00339187 /* ISFacebookAdapter.framework */; };
 		FE232B0C2615ABBB00339187 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE232B062615ABBB00339187 /* FBAudienceNetwork.framework */; };
-		FE232B0D2615ABBB00339187 /* UserMessagingPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE232B072615ABBB00339187 /* UserMessagingPlatform.framework */; };
 		FE38E17B235EFD0600CEEE56 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE38E17A235EFD0600CEEE56 /* libsqlite3.0.tbd */; };
+		FE3AA29726E1D579002C0018 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA29626E1D579002C0018 /* TeaSDK.framework */; };
+		FE3AA2AB26E1D727002C0018 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA2A526E1D727002C0018 /* GoogleMobileAds.framework */; };
+		FE3AA2AC26E1D727002C0018 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA2A626E1D727002C0018 /* GoogleAppMeasurement.framework */; };
+		FE3AA2AD26E1D727002C0018 /* PromisesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA2A726E1D727002C0018 /* PromisesObjC.framework */; };
+		FE3AA2AE26E1D727002C0018 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA2A826E1D727002C0018 /* nanopb.framework */; };
+		FE3AA2AF26E1D728002C0018 /* UserMessagingPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA2A926E1D727002C0018 /* UserMessagingPlatform.framework */; };
+		FE3AA2B026E1D728002C0018 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA2AA26E1D727002C0018 /* GoogleUtilities.framework */; };
 		FE40F6D92500E7FC008F5A08 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40F6D82500E7FC008F5A08 /* File.swift */; };
 		FE40F6DB2500E80C008F5A08 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6DA2500E80C008F5A08 /* Accelerate.framework */; };
 		FE431C2C24FCF0C0004D439E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE431C2B24FCF0C0004D439E /* GoogleService-Info.plist */; };
@@ -47,7 +52,6 @@
 		FED94BA425EE1BF900815D90 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94BA225EE1BF900815D90 /* FBSDKLoginKit.framework */; };
 		FED94BA525EE1BF900815D90 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED94BA325EE1BF900815D90 /* FBSDKCoreKit.framework */; };
 		FEEACBC12581AB2C00BFA6B4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */; };
-		FEFE4AFD265CAE6700C949D9 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEFE4AFC265CAE6600C949D9 /* TeaSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,11 +72,16 @@
 		FE176BA5263664D100A712FF /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
 		FE232B012615ABBB00339187 /* ISAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISAdMobAdapter.framework; sourceTree = "<group>"; };
 		FE232B022615ABBB00339187 /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSource.framework; sourceTree = "<group>"; };
-		FE232B032615ABBB00339187 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		FE232B052615ABBB00339187 /* ISFacebookAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISFacebookAdapter.framework; sourceTree = "<group>"; };
 		FE232B062615ABBB00339187 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
-		FE232B072615ABBB00339187 /* UserMessagingPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserMessagingPlatform.framework; sourceTree = "<group>"; };
 		FE38E17A235EFD0600CEEE56 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		FE3AA29626E1D579002C0018 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
+		FE3AA2A526E1D727002C0018 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		FE3AA2A626E1D727002C0018 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		FE3AA2A726E1D727002C0018 /* PromisesObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PromisesObjC.framework; sourceTree = "<group>"; };
+		FE3AA2A826E1D727002C0018 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		FE3AA2A926E1D727002C0018 /* UserMessagingPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserMessagingPlatform.framework; sourceTree = "<group>"; };
+		FE3AA2AA26E1D727002C0018 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
 		FE40F6D72500E7FC008F5A08 /* NewSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		FE40F6D82500E7FC008F5A08 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		FE40F6DA2500E80C008F5A08 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -113,7 +122,6 @@
 		FED94BA225EE1BF900815D90 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FED94BA325EE1BF900815D90 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		FEFE4AFC265CAE6600C949D9 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,18 +130,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE176BA6263664D100A712FF /* AppTrackingTransparency.framework in Frameworks */,
+				FE3AA2AF26E1D728002C0018 /* UserMessagingPlatform.framework in Frameworks */,
 				FE47596125E388C800F7BCC8 /* nanopb.framework in Frameworks */,
-				FE232B0A2615ABBB00339187 /* GoogleMobileAds.framework in Frameworks */,
+				FE3AA2AC26E1D727002C0018 /* GoogleAppMeasurement.framework in Frameworks */,
 				FE47596225E388C800F7BCC8 /* FirebaseInstallations.framework in Frameworks */,
 				FE47596325E388C800F7BCC8 /* FirebaseABTesting.framework in Frameworks */,
 				FE232B092615ABBB00339187 /* IronSource.framework in Frameworks */,
 				FE47595E25E388C800F7BCC8 /* FirebaseAnalytics.framework in Frameworks */,
+				FE3AA2AB26E1D727002C0018 /* GoogleMobileAds.framework in Frameworks */,
+				FE3AA2AD26E1D727002C0018 /* PromisesObjC.framework in Frameworks */,
 				FE47596025E388C800F7BCC8 /* PromisesObjC.framework in Frameworks */,
+				FE3AA2AE26E1D727002C0018 /* nanopb.framework in Frameworks */,
 				FE176BA4263663C300A712FF /* AppsFlyerLib.framework in Frameworks */,
 				FE40F6DB2500E80C008F5A08 /* Accelerate.framework in Frameworks */,
-				FE232B0D2615ABBB00339187 /* UserMessagingPlatform.framework in Frameworks */,
 				FE47596425E388C800F7BCC8 /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				FEFE4AFD265CAE6700C949D9 /* TeaSDK.framework in Frameworks */,
+				FE3AA29726E1D579002C0018 /* TeaSDK.framework in Frameworks */,
 				FE5EEDB92608A21B00F349D4 /* DINSDK.framework in Frameworks */,
 				FE7780A923A9C5F3000985D7 /* AuthenticationServices.framework in Frameworks */,
 				FE38E17B235EFD0600CEEE56 /* libsqlite3.0.tbd in Frameworks */,
@@ -148,6 +159,7 @@
 				FE232B082615ABBB00339187 /* ISAdMobAdapter.framework in Frameworks */,
 				FEB892972646340100053F50 /* FoxSDK.framework in Frameworks */,
 				FE47595F25E388C800F7BCC8 /* GoogleUtilities.framework in Frameworks */,
+				FE3AA2B026E1D728002C0018 /* GoogleUtilities.framework in Frameworks */,
 				FE232B0B2615ABBB00339187 /* ISFacebookAdapter.framework in Frameworks */,
 				FE47595A25E388C800F7BCC8 /* GoogleDataTransport.framework in Frameworks */,
 				FE8900DC23BF17B000C86C90 /* SocketRocket.a in Frameworks */,
@@ -168,12 +180,11 @@
 		FE232AFF2615ABBB00339187 /* IS7.1.1 */ = {
 			isa = PBXGroup;
 			children = (
+				FE3AA29826E1D5D2002C0018 /* MobSDK */,
 				FE232B002615ABBB00339187 /* ISAdMobAdapter */,
 				FE232B022615ABBB00339187 /* IronSource.framework */,
-				FE232B032615ABBB00339187 /* GoogleMobileAds.framework */,
 				FE232B042615ABBB00339187 /* ISFacebookAdapter */,
 				FE232B062615ABBB00339187 /* FBAudienceNetwork.framework */,
-				FE232B072615ABBB00339187 /* UserMessagingPlatform.framework */,
 			);
 			path = IS7.1.1;
 			sourceTree = "<group>";
@@ -192,6 +203,19 @@
 				FE232B052615ABBB00339187 /* ISFacebookAdapter.framework */,
 			);
 			path = ISFacebookAdapter;
+			sourceTree = "<group>";
+		};
+		FE3AA29826E1D5D2002C0018 /* MobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FE3AA2A626E1D727002C0018 /* GoogleAppMeasurement.framework */,
+				FE3AA2A526E1D727002C0018 /* GoogleMobileAds.framework */,
+				FE3AA2AA26E1D727002C0018 /* GoogleUtilities.framework */,
+				FE3AA2A826E1D727002C0018 /* nanopb.framework */,
+				FE3AA2A726E1D727002C0018 /* PromisesObjC.framework */,
+				FE3AA2A926E1D727002C0018 /* UserMessagingPlatform.framework */,
+			);
+			path = MobSDK;
 			sourceTree = "<group>";
 		};
 		FE47594725E388C700F7BCC8 /* google7.5.0 */ = {
@@ -253,7 +277,7 @@
 		FE8900B923BF17AF00C86C90 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				FEFE4AFC265CAE6600C949D9 /* TeaSDK.framework */,
+				FE3AA29626E1D579002C0018 /* TeaSDK.framework */,
 				FEB892952646340100053F50 /* FoxSDK.framework */,
 				FE176BA2263663C300A712FF /* AF6.2.5 */,
 				FE232AFF2615ABBB00339187 /* IS7.1.1 */,
@@ -539,6 +563,7 @@
 					"$(PROJECT_DIR)/NewSDKDemo/libs/IS7.1.1/ISAdMobAdapter",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/IS7.1.1/ISFacebookAdapter",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/AF6.2.5",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS7.1.1/MobSDK",
 				);
 				INFOPLIST_FILE = NewSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -591,6 +616,7 @@
 					"$(PROJECT_DIR)/NewSDKDemo/libs/IS7.1.1/ISAdMobAdapter",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/IS7.1.1/ISFacebookAdapter",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/AF6.2.5",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS7.1.1/MobSDK",
 				);
 				INFOPLIST_FILE = NewSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
