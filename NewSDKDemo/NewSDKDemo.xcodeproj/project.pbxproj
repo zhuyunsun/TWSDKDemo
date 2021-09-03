@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FE176BA4263663C300A712FF /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE176BA3263663C300A712FF /* AppsFlyerLib.framework */; };
 		FE176BA6263664D100A712FF /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE176BA5263664D100A712FF /* AppTrackingTransparency.framework */; };
-		FE232B082615ABBB00339187 /* ISAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE232B012615ABBB00339187 /* ISAdMobAdapter.framework */; };
 		FE232B092615ABBB00339187 /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE232B022615ABBB00339187 /* IronSource.framework */; };
 		FE232B0B2615ABBB00339187 /* ISFacebookAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE232B052615ABBB00339187 /* ISFacebookAdapter.framework */; };
 		FE232B0C2615ABBB00339187 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE232B062615ABBB00339187 /* FBAudienceNetwork.framework */; };
@@ -21,6 +20,7 @@
 		FE3AA2AE26E1D727002C0018 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA2A826E1D727002C0018 /* nanopb.framework */; };
 		FE3AA2AF26E1D728002C0018 /* UserMessagingPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA2A926E1D727002C0018 /* UserMessagingPlatform.framework */; };
 		FE3AA2B026E1D728002C0018 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA2AA26E1D727002C0018 /* GoogleUtilities.framework */; };
+		FE3AA2B226E1EC01002C0018 /* ISAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA2B126E1EC01002C0018 /* ISAdMobAdapter.framework */; };
 		FE40F6D92500E7FC008F5A08 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE40F6D82500E7FC008F5A08 /* File.swift */; };
 		FE40F6DB2500E80C008F5A08 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE40F6DA2500E80C008F5A08 /* Accelerate.framework */; };
 		FE431C2C24FCF0C0004D439E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE431C2B24FCF0C0004D439E /* GoogleService-Info.plist */; };
@@ -70,7 +70,6 @@
 /* Begin PBXFileReference section */
 		FE176BA3263663C300A712FF /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
 		FE176BA5263664D100A712FF /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
-		FE232B012615ABBB00339187 /* ISAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISAdMobAdapter.framework; sourceTree = "<group>"; };
 		FE232B022615ABBB00339187 /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSource.framework; sourceTree = "<group>"; };
 		FE232B052615ABBB00339187 /* ISFacebookAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISFacebookAdapter.framework; sourceTree = "<group>"; };
 		FE232B062615ABBB00339187 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
@@ -82,6 +81,7 @@
 		FE3AA2A826E1D727002C0018 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
 		FE3AA2A926E1D727002C0018 /* UserMessagingPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserMessagingPlatform.framework; sourceTree = "<group>"; };
 		FE3AA2AA26E1D727002C0018 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		FE3AA2B126E1EC01002C0018 /* ISAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISAdMobAdapter.framework; sourceTree = "<group>"; };
 		FE40F6D72500E7FC008F5A08 /* NewSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		FE40F6D82500E7FC008F5A08 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		FE40F6DA2500E80C008F5A08 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -151,12 +151,12 @@
 				FE47595C25E388C800F7BCC8 /* FirebaseCore.framework in Frameworks */,
 				FE47595B25E388C800F7BCC8 /* GoogleAppMeasurement.framework in Frameworks */,
 				FE47595D25E388C800F7BCC8 /* FirebaseRemoteConfig.framework in Frameworks */,
+				FE3AA2B226E1EC01002C0018 /* ISAdMobAdapter.framework in Frameworks */,
 				FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */,
 				FE232B0C2615ABBB00339187 /* FBAudienceNetwork.framework in Frameworks */,
 				FED94BA425EE1BF900815D90 /* FBSDKLoginKit.framework in Frameworks */,
 				FED94BA525EE1BF900815D90 /* FBSDKCoreKit.framework in Frameworks */,
 				FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */,
-				FE232B082615ABBB00339187 /* ISAdMobAdapter.framework in Frameworks */,
 				FEB892972646340100053F50 /* FoxSDK.framework in Frameworks */,
 				FE47595F25E388C800F7BCC8 /* GoogleUtilities.framework in Frameworks */,
 				FE3AA2B026E1D728002C0018 /* GoogleUtilities.framework in Frameworks */,
@@ -192,7 +192,7 @@
 		FE232B002615ABBB00339187 /* ISAdMobAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				FE232B012615ABBB00339187 /* ISAdMobAdapter.framework */,
+				FE3AA2B126E1EC01002C0018 /* ISAdMobAdapter.framework */,
 			);
 			path = ISAdMobAdapter;
 			sourceTree = "<group>";
