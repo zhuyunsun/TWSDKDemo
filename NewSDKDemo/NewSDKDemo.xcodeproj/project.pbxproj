@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE0A08CC26F482A40082D480 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0A08CB26F482A40082D480 /* TeaSDK.framework */; };
 		FE176BA4263663C300A712FF /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE176BA3263663C300A712FF /* AppsFlyerLib.framework */; };
 		FE176BA6263664D100A712FF /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE176BA5263664D100A712FF /* AppTrackingTransparency.framework */; };
 		FE232B092615ABBB00339187 /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE232B022615ABBB00339187 /* IronSource.framework */; };
 		FE232B0B2615ABBB00339187 /* ISFacebookAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE232B052615ABBB00339187 /* ISFacebookAdapter.framework */; };
 		FE232B0C2615ABBB00339187 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE232B062615ABBB00339187 /* FBAudienceNetwork.framework */; };
 		FE38E17B235EFD0600CEEE56 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE38E17A235EFD0600CEEE56 /* libsqlite3.0.tbd */; };
-		FE3AA29726E1D579002C0018 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA29626E1D579002C0018 /* TeaSDK.framework */; };
 		FE3AA2AB26E1D727002C0018 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA2A526E1D727002C0018 /* GoogleMobileAds.framework */; };
 		FE3AA2AC26E1D727002C0018 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA2A626E1D727002C0018 /* GoogleAppMeasurement.framework */; };
 		FE3AA2AD26E1D727002C0018 /* PromisesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3AA2A726E1D727002C0018 /* PromisesObjC.framework */; };
@@ -68,13 +68,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE0A08CB26F482A40082D480 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FE176BA3263663C300A712FF /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
 		FE176BA5263664D100A712FF /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
 		FE232B022615ABBB00339187 /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSource.framework; sourceTree = "<group>"; };
 		FE232B052615ABBB00339187 /* ISFacebookAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISFacebookAdapter.framework; sourceTree = "<group>"; };
 		FE232B062615ABBB00339187 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
 		FE38E17A235EFD0600CEEE56 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		FE3AA29626E1D579002C0018 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FE3AA2A526E1D727002C0018 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		FE3AA2A626E1D727002C0018 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
 		FE3AA2A726E1D727002C0018 /* PromisesObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PromisesObjC.framework; sourceTree = "<group>"; };
@@ -137,6 +137,7 @@
 				FE47596325E388C800F7BCC8 /* FirebaseABTesting.framework in Frameworks */,
 				FE232B092615ABBB00339187 /* IronSource.framework in Frameworks */,
 				FE47595E25E388C800F7BCC8 /* FirebaseAnalytics.framework in Frameworks */,
+				FE0A08CC26F482A40082D480 /* TeaSDK.framework in Frameworks */,
 				FE3AA2AB26E1D727002C0018 /* GoogleMobileAds.framework in Frameworks */,
 				FE3AA2AD26E1D727002C0018 /* PromisesObjC.framework in Frameworks */,
 				FE47596025E388C800F7BCC8 /* PromisesObjC.framework in Frameworks */,
@@ -144,7 +145,6 @@
 				FE176BA4263663C300A712FF /* AppsFlyerLib.framework in Frameworks */,
 				FE40F6DB2500E80C008F5A08 /* Accelerate.framework in Frameworks */,
 				FE47596425E388C800F7BCC8 /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				FE3AA29726E1D579002C0018 /* TeaSDK.framework in Frameworks */,
 				FE5EEDB92608A21B00F349D4 /* DINSDK.framework in Frameworks */,
 				FE7780A923A9C5F3000985D7 /* AuthenticationServices.framework in Frameworks */,
 				FE38E17B235EFD0600CEEE56 /* libsqlite3.0.tbd in Frameworks */,
@@ -277,7 +277,7 @@
 		FE8900B923BF17AF00C86C90 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				FE3AA29626E1D579002C0018 /* TeaSDK.framework */,
+				FE0A08CB26F482A40082D480 /* TeaSDK.framework */,
 				FEB892952646340100053F50 /* FoxSDK.framework */,
 				FE176BA2263663C300A712FF /* AF6.2.5 */,
 				FE232AFF2615ABBB00339187 /* IS7.1.1 */,
