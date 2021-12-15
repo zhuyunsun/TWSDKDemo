@@ -1,9 +1,12 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <AuthenticationServices/AuthenticationServices.h>
 NS_ASSUME_NONNULL_BEGIN
 UIKIT_STATIC_INLINE NSString *MY_SDK_VERSION(){
-    return @"2.3.0";
+    NSString *SDKVERSION = @"2.3.1";
+    NSLog(@"TW__12.15版本: = %@",SDKVERSION);
+    return SDKVERSION;
 }
 /*
  block说明
@@ -41,13 +44,14 @@ UIKIT_STATIC_INLINE NSString* enter_show(){
 }
 
 @protocol LgDelegate,SerDelegate,ReDelegate;
-@interface ShowMilkCommon : NSObject
+@interface ShowMilkCommon : NSObject <ASAuthorizationControllerDelegate,ASAuthorizationControllerPresentationContextProviding>
 @property(nonatomic,copy)NSDictionary *mgDic;
 @property(nonatomic,readonly)NSString *UID;
 @property(nonatomic,weak)id<LgDelegate>delegate;
 @property(nonatomic,weak)id<SerDelegate>SEDelegate;
 @property(nonatomic,weak)id<ReDelegate>ReDelegate;
 +(ShowMilkCommon *)shareInstance;
+-(void)loginDefaultStyle;//没有登录界面的的登陆方式
 -(void)loginAutoIN:(BOOL)isAuto;//展示登陆界面:在游戏登录界面传YES,在游戏里面切换账号传NO
 -(void)hdLgView;//移除登陆和注册界面
 -(void)reAutoLg;//移除自动登陆操作
