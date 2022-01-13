@@ -4,7 +4,7 @@
 #import <AuthenticationServices/AuthenticationServices.h>
 NS_ASSUME_NONNULL_BEGIN
 UIKIT_STATIC_INLINE NSString *MY_SDK_VERSION(){
-    NSString *SDKVERSION = @"2.3.2";
+    NSString *SDKVERSION = @"2.3.3";
     NSLog(@"TW__1.13版本: = %@",SDKVERSION);
     return SDKVERSION;
 }
