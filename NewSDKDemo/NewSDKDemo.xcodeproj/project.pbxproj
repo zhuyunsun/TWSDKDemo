@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE0C6A782797AB5900F40105 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0C6A712797AB5800F40105 /* TeaSDK.framework */; };
 		FE0C6A792797AB5900F40105 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0C6A732797AB5800F40105 /* FBSDKLoginKit.framework */; };
 		FE0C6A7A2797AB5900F40105 /* FBAEMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0C6A742797AB5800F40105 /* FBAEMKit.framework */; };
 		FE0C6A7B2797AB5900F40105 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0C6A752797AB5800F40105 /* FBSDKCoreKit.framework */; };
@@ -26,6 +25,7 @@
 		FE66F85C2254566100E41A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE66F85A2254566100E41A6A /* LaunchScreen.storyboard */; };
 		FE66F85F2254566100E41A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66F85E2254566100E41A6A /* main.m */; };
 		FE7780A923A9C5F3000985D7 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7780A823A9C5F3000985D7 /* AuthenticationServices.framework */; };
+		FE823ACC27A116C9000C3E69 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE823ACB27A116C9000C3E69 /* TeaSDK.framework */; };
 		FE8900DC23BF17B000C86C90 /* SocketRocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8900C923BF17AF00C86C90 /* SocketRocket.a */; };
 		FE8900DE23BF17B000C86C90 /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE8900CB23BF17AF00C86C90 /* Image.bundle */; };
 		FE8900DF23BF17B000C86C90 /* DINSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */; };
@@ -72,7 +72,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FE0C6A712797AB5800F40105 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FE0C6A732797AB5800F40105 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FE0C6A742797AB5800F40105 /* FBAEMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAEMKit.framework; sourceTree = "<group>"; };
 		FE0C6A752797AB5800F40105 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
@@ -97,6 +96,7 @@
 		FE66F85E2254566100E41A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE7780A723A9C3D6000985D7 /* APPLE泰文SDK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "APPLE泰文SDK.entitlements"; sourceTree = "<group>"; };
 		FE7780A823A9C5F3000985D7 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		FE823ACB27A116C9000C3E69 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FE8900C923BF17AF00C86C90 /* SocketRocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = SocketRocket.a; sourceTree = "<group>"; };
 		FE8900CB23BF17AF00C86C90 /* Image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Image.bundle; sourceTree = "<group>"; };
 		FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DINSDKBundle.bundle; sourceTree = "<group>"; };
@@ -146,6 +146,7 @@
 				FE8FC873278FF37B0093CB79 /* FirebaseCore.framework in Frameworks */,
 				FE8FC878278FF37C0093CB79 /* FirebaseCoreDiagnostics.framework in Frameworks */,
 				FE8FC72B278FCC700093CB79 /* PromisesObjC.framework in Frameworks */,
+				FE823ACC27A116C9000C3E69 /* TeaSDK.framework in Frameworks */,
 				FE176BA6263664D100A712FF /* AppTrackingTransparency.framework in Frameworks */,
 				FEB3E5F327422ED200EC0463 /* AppsFlyerLib.framework in Frameworks */,
 				FE8FC72E278FCC700093CB79 /* UserMessagingPlatform.framework in Frameworks */,
@@ -161,7 +162,6 @@
 				FE8FC874278FF37B0093CB79 /* FirebaseRemoteConfig.framework in Frameworks */,
 				FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */,
 				FE8FC74C278FD17F0093CB79 /* FBAudienceNetwork.framework in Frameworks */,
-				FE0C6A782797AB5900F40105 /* TeaSDK.framework in Frameworks */,
 				FE0C6A7A2797AB5900F40105 /* FBAEMKit.framework in Frameworks */,
 				FE8FC731278FCC700093CB79 /* IronSource.framework in Frameworks */,
 				FE8FC877278FF37C0093CB79 /* FirebaseABTesting.framework in Frameworks */,
@@ -227,9 +227,9 @@
 		FE8900B923BF17AF00C86C90 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				FE823ACB27A116C9000C3E69 /* TeaSDK.framework */,
 				FE0C6A722797AB5800F40105 /* FB12.1.0 */,
 				FE0C6A772797AB5900F40105 /* FoxSDK.framework */,
-				FE0C6A712797AB5800F40105 /* TeaSDK.framework */,
 				FE8FC869278FF37B0093CB79 /* Fire8.7.0 */,
 				FE8FC713278FCC700093CB79 /* IS7.1.14 */,
 				FEB3E5F127422ED200EC0463 /* AF6.4.2 */,
