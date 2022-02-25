@@ -4,8 +4,8 @@
 #import <AuthenticationServices/AuthenticationServices.h>
 NS_ASSUME_NONNULL_BEGIN
 UIKIT_STATIC_INLINE NSString *MY_SDK_VERSION(){
-    NSString *SDKVERSION = @"2.3.5";
-    NSLog(@"TW__2022.1.26版本: = %@",SDKVERSION);
+    NSString *SDKVERSION = @"2.3.7";
+    NSLog(@"TW__2022.2.25版本: = %@",SDKVERSION);
     return SDKVERSION;
 }
 /*
@@ -70,8 +70,8 @@ UIKIT_STATIC_INLINE NSString* enter_show(){
           annotation:(id)annotation;
 -(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString*, id> *)options;
 -(BOOL)continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray *))restorationHandler;
-//z   sku:内购ID,order:订单号,money:对应金额,ctext:扩展参数,adress:扩展参数 为空可传@""
--(void)showMessage:(NSString *)sku orderNum:(NSString *)order Money:(NSString *)money Ctext:(NSString *)ctext address:(NSString *)address;
+//z   sku:内购ID,order:订单号,money:对应金额,ctext:扩展参数,adress:扩展参数 为空传@""
+-(void)showMessage:(NSString *)sku orderNum:(NSString *)order Money:(NSString *)money productName:(NSString *)name Ctext:(NSString *)ctext address:(NSString *)address;
 //角色接口(角色进入游戏的时候调用,sid服务器id;rid,角色id)
 -(void)FoxChecvbj03qfckfdgj045hDetfg0p3etfailServeaserIDh45ert:(NSString *)sid Role:(NSString *)rid CompleteBlock:(CompleteResult)block;
 //公开http请求接口

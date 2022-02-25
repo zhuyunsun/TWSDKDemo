@@ -116,7 +116,7 @@ typedef void(^OnNetWork)(NSString * info, NSInteger httpType);
 
 
 //内购支付接口
--(void)tallCabinetToweringBefore:(NSString *)sku userid:(NSString *)userid orderNum:(NSString *)order Money:(NSString *)money Ctext:(NSString *)ctext callBackAddress:(NSString *)address PayBlock:(payResult)block;
+-(void)tallCabinetToweringBefore:(NSString *)sku userid:(NSString *)userid orderNum:(NSString *)order Money:(NSString *)money productName:(NSString *)name Ctext:(NSString *)ctext callBackAddress:(NSString *)address PayBlock:(payResult)block;
 
 
 //公开http请求接口

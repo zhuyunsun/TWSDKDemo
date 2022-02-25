@@ -1,9 +1,9 @@
 //
 //  ViewController.m
-//  NewSDKDemo
+//  SDKDemo
 //
-//  Created by zhuyun on 2019/4/3.
-//  Copyright © 2019 project. All rights reserved.
+//  Created by 朱运 on 2022/1/13.
+//  Copyright © 2022 project. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor lightGrayColor];
+    self.view.backgroundColor = [UIColor blackColor];
 //    UIImageView *image = [[UIImageView alloc]init];
 //    image.image = [UIImage imageNamed:@"123"];
 //    [self.view addSubview:image];
@@ -75,7 +75,7 @@
         dispatch_async(concurrent1, ^{
             NSInteger num = arc4random() % 100000 + 10000000000;
             NSString *order = [NSString stringWithFormat:@"%ld",num];
-            [[ShowMilkCommon shareInstance] showMessage:@"com.dummy.th.29" orderNum:order Money:@"29.00" Ctext:@"qeqe" address:@"eqe"];
+            [[ShowMilkCommon shareInstance] showMessage:@"com.eyougame.xlfz.th.35" orderNum:order Money:@"0.92" productName:@"90宝石" Ctext:@"qeqe" address:@""];
             [ShowMilkCommon shareInstance].SEDelegate = self;
 
         });
@@ -96,11 +96,11 @@
         
     }
     if (index == 8) {
-//        if (self.loadDone == NO) {
+//        if (self.loadDone == NO)  {
 //            NSLog(@"等待视频加载完成");
 //            return;
 //        }
-        [[ShowMilkCommon shareInstance] loadRewordVideo:@"cp传的扩展字段" sid:@"001" rid:@"0988e312312"];
+        [[ShowMilkCommon shareInstance] loadRewordVideo:@"1" sid:@"001" rid:@"0988e312312"];
     }
     if (index == 9) {
         LoginType type = [[ShowMilkCommon shareInstance] getLoginType];NSLog(@"type = %ld",type);
