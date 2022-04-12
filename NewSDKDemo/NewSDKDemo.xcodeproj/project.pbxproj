@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE07FD9327F6A8B300CE8B93 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE07FD9127F6A8B300CE8B93 /* TeaSDK.framework */; };
 		FE07FD9427F6A8B300CE8B93 /* FoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE07FD9227F6A8B300CE8B93 /* FoxSDK.framework */; };
 		FE0C6A792797AB5900F40105 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0C6A732797AB5800F40105 /* FBSDKLoginKit.framework */; };
 		FE0C6A7A2797AB5900F40105 /* FBAEMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0C6A742797AB5800F40105 /* FBAEMKit.framework */; };
@@ -55,6 +54,7 @@
 		FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA02304ED97009D1C69 /* libicucore.tbd */; };
 		FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA22304F7DA009D1C69 /* libc++.tbd */; };
 		FEEACBC12581AB2C00BFA6B4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */; };
+		FEF3768528054D370071D9EA /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF3768428054D370071D9EA /* TeaSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,7 +72,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FE07FD9127F6A8B300CE8B93 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FE07FD9227F6A8B300CE8B93 /* FoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FoxSDK.framework; sourceTree = "<group>"; };
 		FE0C6A732797AB5800F40105 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FE0C6A742797AB5800F40105 /* FBAEMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAEMKit.framework; sourceTree = "<group>"; };
@@ -127,6 +126,7 @@
 		FE918DA42304F803009D1C69 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		FE918DA62304F826009D1C69 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		FEF3768428054D370071D9EA /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +146,8 @@
 				FE8FC730278FCC700093CB79 /* ISAdMobAdapter.framework in Frameworks */,
 				FE8FC873278FF37B0093CB79 /* FirebaseCore.framework in Frameworks */,
 				FE8FC878278FF37C0093CB79 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				FEF3768528054D370071D9EA /* TeaSDK.framework in Frameworks */,
 				FE8FC72B278FCC700093CB79 /* PromisesObjC.framework in Frameworks */,
-				FE07FD9327F6A8B300CE8B93 /* TeaSDK.framework in Frameworks */,
 				FE176BA6263664D100A712FF /* AppTrackingTransparency.framework in Frameworks */,
 				FE8FC72E278FCC700093CB79 /* UserMessagingPlatform.framework in Frameworks */,
 				FE8FC72A278FCC700093CB79 /* GoogleUtilities.framework in Frameworks */,
@@ -235,8 +235,8 @@
 		FE8900B923BF17AF00C86C90 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				FEF3768428054D370071D9EA /* TeaSDK.framework */,
 				FE07FD9227F6A8B300CE8B93 /* FoxSDK.framework */,
-				FE07FD9127F6A8B300CE8B93 /* TeaSDK.framework */,
 				FE73246627C8B70800ED4DD3 /* AF6.5.2 */,
 				FE0C6A722797AB5800F40105 /* FB12.1.0 */,
 				FE8FC869278FF37B0093CB79 /* Fire8.7.0 */,
