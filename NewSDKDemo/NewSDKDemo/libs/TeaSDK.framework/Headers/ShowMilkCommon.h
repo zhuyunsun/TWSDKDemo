@@ -4,7 +4,7 @@
 #import <AuthenticationServices/AuthenticationServices.h>
 NS_ASSUME_NONNULL_BEGIN
 UIKIT_STATIC_INLINE NSString *MY_SDK_VERSION(){
-    NSString *SDKVERSION = @"2.4.1";
+    NSString *SDKVERSION = @"2.4.2";
     NSLog(@"TW__2022.4.13版本: = %@",SDKVERSION);
     return SDKVERSION;
 }
@@ -109,11 +109,11 @@ UIKIT_STATIC_INLINE NSString* enter_show(){
   -(void)loadRewordVideo:(NSString *)placeName;
  否则不会有展示
  */
--(void)canShowRewardVideo;
+-(void)canShowRewardVideo:(BOOL)available;
 ///播放错误
 -(void)loadFailRewadVideo:(NSError *)error;
 /// 正常播放完毕,应该在这里发放奖励
--(void)didReceiveRewadVideo;
+-(void)didReceiveRewadVideo:(NSString *)placeName;
 /// 视频已经被关闭
 -(void)didCloseVideo;
 ///视频已经打开

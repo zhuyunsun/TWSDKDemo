@@ -54,7 +54,7 @@
 		FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA22304F7DA009D1C69 /* libc++.tbd */; };
 		FEEACBC12581AB2C00BFA6B4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */; };
 		FEF376A428066E440071D9EA /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEF376A328066E440071D9EA /* Image.bundle */; };
-		FEF376A6280670DF0071D9EA /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF376A5280670DF0071D9EA /* TeaSDK.framework */; };
+		FEF376BD2806AF7C0071D9EA /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF376BC2806AF7C0071D9EA /* TeaSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -126,7 +126,7 @@
 		FE918DA62304F826009D1C69 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		FEF376A328066E440071D9EA /* Image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Image.bundle; sourceTree = "<group>"; };
-		FEF376A5280670DF0071D9EA /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
+		FEF376BC2806AF7C0071D9EA /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +146,7 @@
 				FE8FC730278FCC700093CB79 /* ISAdMobAdapter.framework in Frameworks */,
 				FE8FC873278FF37B0093CB79 /* FirebaseCore.framework in Frameworks */,
 				FE8FC878278FF37C0093CB79 /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				FEF376A6280670DF0071D9EA /* TeaSDK.framework in Frameworks */,
+				FEF376BD2806AF7C0071D9EA /* TeaSDK.framework in Frameworks */,
 				FE8FC72B278FCC700093CB79 /* PromisesObjC.framework in Frameworks */,
 				FE176BA6263664D100A712FF /* AppTrackingTransparency.framework in Frameworks */,
 				FE8FC72E278FCC700093CB79 /* UserMessagingPlatform.framework in Frameworks */,
@@ -235,7 +235,7 @@
 		FE8900B923BF17AF00C86C90 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				FEF376A5280670DF0071D9EA /* TeaSDK.framework */,
+				FEF376BC2806AF7C0071D9EA /* TeaSDK.framework */,
 				FEF376A328066E440071D9EA /* Image.bundle */,
 				FE07FD9227F6A8B300CE8B93 /* FoxSDK.framework */,
 				FE73246627C8B70800ED4DD3 /* AF6.5.2 */,
