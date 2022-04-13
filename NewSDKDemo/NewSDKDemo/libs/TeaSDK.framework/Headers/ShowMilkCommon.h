@@ -4,7 +4,7 @@
 #import <AuthenticationServices/AuthenticationServices.h>
 NS_ASSUME_NONNULL_BEGIN
 UIKIT_STATIC_INLINE NSString *MY_SDK_VERSION(){
-    NSString *SDKVERSION = @"2.4.2";
+    NSString *SDKVERSION = @"2.4.3";
     NSLog(@"TW__2022.4.13版本: = %@",SDKVERSION);
     return SDKVERSION;
 }
@@ -87,6 +87,8 @@ UIKIT_STATIC_INLINE NSString* enter_show(){
 
 //激励广告接口:需要canShowRewardVideo协议回调之后才可以调用该接口,placeName  CP透传参数  sid:服务器id,rid:角色id
 -(void)loadRewordVideo:(NSString *)placeName sid:(NSString *)sid rid:(NSString *)rid;
+//判断当前是否有广告,会根据广告SDK那边变化.默认为NO;
+-(BOOL)canShowVideo;
 @end
 //登陆状态的回调
 @protocol LgDelegate <NSObject>
