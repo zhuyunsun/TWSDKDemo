@@ -27,7 +27,6 @@
 		FE73246A27C8B70800ED4DD3 /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE73246727C8B70800ED4DD3 /* AppsFlyerLib.framework */; };
 		FE7780A923A9C5F3000985D7 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7780A823A9C5F3000985D7 /* AuthenticationServices.framework */; };
 		FE8900DC23BF17B000C86C90 /* SocketRocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8900C923BF17AF00C86C90 /* SocketRocket.a */; };
-		FE8900DE23BF17B000C86C90 /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE8900CB23BF17AF00C86C90 /* Image.bundle */; };
 		FE8900DF23BF17B000C86C90 /* DINSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */; };
 		FE8FC729278FCC700093CB79 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC715278FCC700093CB79 /* GoogleAppMeasurement.framework */; };
 		FE8FC72A278FCC700093CB79 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC716278FCC700093CB79 /* GoogleUtilities.framework */; };
@@ -54,7 +53,8 @@
 		FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA02304ED97009D1C69 /* libicucore.tbd */; };
 		FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA22304F7DA009D1C69 /* libc++.tbd */; };
 		FEEACBC12581AB2C00BFA6B4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */; };
-		FEF37696280553E30071D9EA /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF37695280553E30071D9EA /* TeaSDK.framework */; };
+		FEF376A428066E440071D9EA /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEF376A328066E440071D9EA /* Image.bundle */; };
+		FEF376A6280670DF0071D9EA /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF376A5280670DF0071D9EA /* TeaSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -98,7 +98,6 @@
 		FE7780A723A9C3D6000985D7 /* APPLE泰文SDK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "APPLE泰文SDK.entitlements"; sourceTree = "<group>"; };
 		FE7780A823A9C5F3000985D7 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		FE8900C923BF17AF00C86C90 /* SocketRocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = SocketRocket.a; sourceTree = "<group>"; };
-		FE8900CB23BF17AF00C86C90 /* Image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Image.bundle; sourceTree = "<group>"; };
 		FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DINSDKBundle.bundle; sourceTree = "<group>"; };
 		FE8FC715278FCC700093CB79 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
 		FE8FC716278FCC700093CB79 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
@@ -126,7 +125,8 @@
 		FE918DA42304F803009D1C69 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		FE918DA62304F826009D1C69 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		FEF37695280553E30071D9EA /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
+		FEF376A328066E440071D9EA /* Image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Image.bundle; sourceTree = "<group>"; };
+		FEF376A5280670DF0071D9EA /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +146,7 @@
 				FE8FC730278FCC700093CB79 /* ISAdMobAdapter.framework in Frameworks */,
 				FE8FC873278FF37B0093CB79 /* FirebaseCore.framework in Frameworks */,
 				FE8FC878278FF37C0093CB79 /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				FEF37696280553E30071D9EA /* TeaSDK.framework in Frameworks */,
+				FEF376A6280670DF0071D9EA /* TeaSDK.framework in Frameworks */,
 				FE8FC72B278FCC700093CB79 /* PromisesObjC.framework in Frameworks */,
 				FE176BA6263664D100A712FF /* AppTrackingTransparency.framework in Frameworks */,
 				FE8FC72E278FCC700093CB79 /* UserMessagingPlatform.framework in Frameworks */,
@@ -235,7 +235,8 @@
 		FE8900B923BF17AF00C86C90 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				FEF37695280553E30071D9EA /* TeaSDK.framework */,
+				FEF376A5280670DF0071D9EA /* TeaSDK.framework */,
+				FEF376A328066E440071D9EA /* Image.bundle */,
 				FE07FD9227F6A8B300CE8B93 /* FoxSDK.framework */,
 				FE73246627C8B70800ED4DD3 /* AF6.5.2 */,
 				FE0C6A722797AB5800F40105 /* FB12.1.0 */,
@@ -245,7 +246,6 @@
 				FE5EEDB82608A21B00F349D4 /* DINSDK.framework */,
 				FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */,
 				FE8900C923BF17AF00C86C90 /* SocketRocket.a */,
-				FE8900CB23BF17AF00C86C90 /* Image.bundle */,
 				FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */,
 			);
 			path = libs;
@@ -385,10 +385,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEEACBC12581AB2C00BFA6B4 /* SVProgressHUD.bundle in Resources */,
+				FEF376A428066E440071D9EA /* Image.bundle in Resources */,
 				FE8900DF23BF17B000C86C90 /* DINSDKBundle.bundle in Resources */,
 				FE66F85C2254566100E41A6A /* LaunchScreen.storyboard in Resources */,
 				FE66F8592254566100E41A6A /* Assets.xcassets in Resources */,
-				FE8900DE23BF17B000C86C90 /* Image.bundle in Resources */,
 				FE66F8572254566100E41A6A /* Main.storyboard in Resources */,
 				FE431C2C24FCF0C0004D439E /* GoogleService-Info.plist in Resources */,
 			);
