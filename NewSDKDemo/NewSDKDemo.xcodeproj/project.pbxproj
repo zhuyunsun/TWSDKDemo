@@ -26,6 +26,7 @@
 		FE66F85F2254566100E41A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66F85E2254566100E41A6A /* main.m */; };
 		FE73246A27C8B70800ED4DD3 /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE73246727C8B70800ED4DD3 /* AppsFlyerLib.framework */; };
 		FE7780A923A9C5F3000985D7 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7780A823A9C5F3000985D7 /* AuthenticationServices.framework */; };
+		FE80FEC42837376C005E4EC0 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE80FEC32837376C005E4EC0 /* TeaSDK.framework */; };
 		FE8900DC23BF17B000C86C90 /* SocketRocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8900C923BF17AF00C86C90 /* SocketRocket.a */; };
 		FE8900DF23BF17B000C86C90 /* DINSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */; };
 		FE8FC729278FCC700093CB79 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC715278FCC700093CB79 /* GoogleAppMeasurement.framework */; };
@@ -53,7 +54,6 @@
 		FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA02304ED97009D1C69 /* libicucore.tbd */; };
 		FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA22304F7DA009D1C69 /* libc++.tbd */; };
 		FEE7DA2B2809647800E3B6F4 /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEE7DA292809647800E3B6F4 /* Image.bundle */; };
-		FEE7DA2C2809647800E3B6F4 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE7DA2A2809647800E3B6F4 /* TeaSDK.framework */; };
 		FEEACBC12581AB2C00BFA6B4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +97,7 @@
 		FE73246727C8B70800ED4DD3 /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
 		FE7780A723A9C3D6000985D7 /* APPLE泰文SDK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "APPLE泰文SDK.entitlements"; sourceTree = "<group>"; };
 		FE7780A823A9C5F3000985D7 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		FE80FEC32837376C005E4EC0 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FE8900C923BF17AF00C86C90 /* SocketRocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = SocketRocket.a; sourceTree = "<group>"; };
 		FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DINSDKBundle.bundle; sourceTree = "<group>"; };
 		FE8FC715278FCC700093CB79 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
@@ -125,7 +126,6 @@
 		FE918DA42304F803009D1C69 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		FE918DA62304F826009D1C69 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		FEE7DA292809647800E3B6F4 /* Image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Image.bundle; sourceTree = "<group>"; };
-		FEE7DA2A2809647800E3B6F4 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,7 +146,7 @@
 				FE8FC730278FCC700093CB79 /* ISAdMobAdapter.framework in Frameworks */,
 				FE8FC873278FF37B0093CB79 /* FirebaseCore.framework in Frameworks */,
 				FE8FC878278FF37C0093CB79 /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				FEE7DA2C2809647800E3B6F4 /* TeaSDK.framework in Frameworks */,
+				FE80FEC42837376C005E4EC0 /* TeaSDK.framework in Frameworks */,
 				FE8FC72B278FCC700093CB79 /* PromisesObjC.framework in Frameworks */,
 				FE176BA6263664D100A712FF /* AppTrackingTransparency.framework in Frameworks */,
 				FE8FC72E278FCC700093CB79 /* UserMessagingPlatform.framework in Frameworks */,
@@ -235,8 +235,8 @@
 		FE8900B923BF17AF00C86C90 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				FE80FEC32837376C005E4EC0 /* TeaSDK.framework */,
 				FEE7DA292809647800E3B6F4 /* Image.bundle */,
-				FEE7DA2A2809647800E3B6F4 /* TeaSDK.framework */,
 				FE07FD9227F6A8B300CE8B93 /* FoxSDK.framework */,
 				FE73246627C8B70800ED4DD3 /* AF6.5.2 */,
 				FE0C6A722797AB5800F40105 /* FB12.1.0 */,
