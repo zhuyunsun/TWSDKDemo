@@ -26,24 +26,11 @@
 		FE66F85F2254566100E41A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE66F85E2254566100E41A6A /* main.m */; };
 		FE73246A27C8B70800ED4DD3 /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE73246727C8B70800ED4DD3 /* AppsFlyerLib.framework */; };
 		FE7780A923A9C5F3000985D7 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7780A823A9C5F3000985D7 /* AuthenticationServices.framework */; };
-		FE80FEC42837376C005E4EC0 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE80FEC32837376C005E4EC0 /* TeaSDK.framework */; };
 		FE8900DC23BF17B000C86C90 /* SocketRocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8900C923BF17AF00C86C90 /* SocketRocket.a */; };
 		FE8900DF23BF17B000C86C90 /* DINSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */; };
-		FE8FC729278FCC700093CB79 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC715278FCC700093CB79 /* GoogleAppMeasurement.framework */; };
-		FE8FC72A278FCC700093CB79 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC716278FCC700093CB79 /* GoogleUtilities.framework */; };
-		FE8FC72B278FCC700093CB79 /* PromisesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC717278FCC700093CB79 /* PromisesObjC.framework */; };
-		FE8FC72C278FCC700093CB79 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC718278FCC700093CB79 /* nanopb.framework */; };
-		FE8FC72D278FCC700093CB79 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC719278FCC700093CB79 /* GoogleMobileAds.framework */; };
-		FE8FC72E278FCC700093CB79 /* UserMessagingPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC71A278FCC700093CB79 /* UserMessagingPlatform.framework */; };
-		FE8FC72F278FCC700093CB79 /* GoogleAppMeasurementIdentitySupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC71B278FCC700093CB79 /* GoogleAppMeasurementIdentitySupport.framework */; };
-		FE8FC730278FCC700093CB79 /* ISAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC71C278FCC700093CB79 /* ISAdMobAdapter.framework */; };
-		FE8FC731278FCC700093CB79 /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC71E278FCC700093CB79 /* IronSource.framework */; };
-		FE8FC733278FCC700093CB79 /* ISFacebookAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC721278FCC700093CB79 /* ISFacebookAdapter.framework */; };
 		FE8FC73F278FCD390093CB79 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC73E278FCD390093CB79 /* libresolv.tbd */; };
 		FE8FC741278FCD570093CB79 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC740278FCD570093CB79 /* libbz2.1.0.tbd */; };
 		FE8FC742278FCD740093CB79 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA62304F826009D1C69 /* libc++abi.tbd */; };
-		FE8FC74C278FD17F0093CB79 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC74A278FD1620093CB79 /* FBAudienceNetwork.framework */; };
-		FE8FC74D278FD17F0093CB79 /* FBAudienceNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC74A278FD1620093CB79 /* FBAudienceNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FE8FC872278FF37B0093CB79 /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC86A278FF37B0093CB79 /* GoogleDataTransport.framework */; };
 		FE8FC873278FF37B0093CB79 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC86B278FF37B0093CB79 /* FirebaseCore.framework */; };
 		FE8FC874278FF37B0093CB79 /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC86C278FF37B0093CB79 /* FirebaseRemoteConfig.framework */; };
@@ -55,6 +42,35 @@
 		FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA22304F7DA009D1C69 /* libc++.tbd */; };
 		FEE7DA2B2809647800E3B6F4 /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEE7DA292809647800E3B6F4 /* Image.bundle */; };
 		FEEACBC12581AB2C00BFA6B4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */; };
+		FEEEE64C288E4BCA000B4BC7 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE64B288E4BCA000B4BC7 /* TeaSDK.framework */; };
+		FEEEE673288E4C10000B4BC7 /* AppLovinSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEEE64E288E4C0F000B4BC7 /* AppLovinSDKResources.bundle */; };
+		FEEEE674288E4C10000B4BC7 /* PAGAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEEE64F288E4C0F000B4BC7 /* PAGAdSDK.bundle */; };
+		FEEEE675288E4C10000B4BC7 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE652288E4C0F000B4BC7 /* UnityAds.framework */; };
+		FEEEE676288E4C10000B4BC7 /* ISUnityAdsAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE653288E4C0F000B4BC7 /* ISUnityAdsAdapter.framework */; };
+		FEEEE677288E4C10000B4BC7 /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE655288E4C0F000B4BC7 /* IronSource.framework */; };
+		FEEEE678288E4C10000B4BC7 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE657288E4C0F000B4BC7 /* VungleSDK.framework */; };
+		FEEEE679288E4C10000B4BC7 /* ISVungleAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE658288E4C0F000B4BC7 /* ISVungleAdapter.framework */; };
+		FEEEE67A288E4C10000B4BC7 /* Tapjoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE65A288E4C0F000B4BC7 /* Tapjoy.framework */; };
+		FEEEE67B288E4C10000B4BC7 /* ISTapjoyAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE65B288E4C0F000B4BC7 /* ISTapjoyAdapter.framework */; };
+		FEEEE67C288E4C11000B4BC7 /* ISAppLovinAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE65D288E4C0F000B4BC7 /* ISAppLovinAdapter.framework */; };
+		FEEEE67D288E4C11000B4BC7 /* AppLovinSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE65E288E4C0F000B4BC7 /* AppLovinSDK.framework */; };
+		FEEEE67E288E4C11000B4BC7 /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE660288E4C0F000B4BC7 /* BUAdSDK.framework */; };
+		FEEEE67F288E4C11000B4BC7 /* BURelyAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE661288E4C0F000B4BC7 /* BURelyAdSDK.framework */; };
+		FEEEE680288E4C11000B4BC7 /* BUVAAuxiliary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE662288E4C0F000B4BC7 /* BUVAAuxiliary.framework */; };
+		FEEEE681288E4C11000B4BC7 /* ISPangleAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE663288E4C0F000B4BC7 /* ISPangleAdapter.framework */; };
+		FEEEE682288E4C12000B4BC7 /* BUFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE664288E4C0F000B4BC7 /* BUFoundation.framework */; };
+		FEEEE683288E4C12000B4BC7 /* PAGAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE665288E4C0F000B4BC7 /* PAGAdSDK.framework */; };
+		FEEEE684288E4C12000B4BC7 /* BURelyFoundation_Global.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE666288E4C0F000B4BC7 /* BURelyFoundation_Global.framework */; };
+		FEEEE685288E4C12000B4BC7 /* ISFacebookAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE668288E4C0F000B4BC7 /* ISFacebookAdapter.framework */; };
+		FEEEE686288E4C12000B4BC7 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE669288E4C0F000B4BC7 /* FBAudienceNetwork.framework */; };
+		FEEEE687288E4C13000B4BC7 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE66B288E4C10000B4BC7 /* GoogleAppMeasurement.framework */; };
+		FEEEE688288E4C13000B4BC7 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE66C288E4C10000B4BC7 /* GoogleUtilities.framework */; };
+		FEEEE689288E4C13000B4BC7 /* PromisesObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE66D288E4C10000B4BC7 /* PromisesObjC.framework */; };
+		FEEEE68A288E4C13000B4BC7 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE66E288E4C10000B4BC7 /* nanopb.framework */; };
+		FEEEE68B288E4C13000B4BC7 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE66F288E4C10000B4BC7 /* GoogleMobileAds.framework */; };
+		FEEEE68C288E4C14000B4BC7 /* UserMessagingPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE670288E4C10000B4BC7 /* UserMessagingPlatform.framework */; };
+		FEEEE68D288E4C14000B4BC7 /* GoogleAppMeasurementIdentitySupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE671288E4C10000B4BC7 /* GoogleAppMeasurementIdentitySupport.framework */; };
+		FEEEE68E288E4C14000B4BC7 /* ISAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE672288E4C10000B4BC7 /* ISAdMobAdapter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,7 +80,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FE8FC74D278FD17F0093CB79 /* FBAudienceNetwork.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,22 +112,10 @@
 		FE73246727C8B70800ED4DD3 /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
 		FE7780A723A9C3D6000985D7 /* APPLE泰文SDK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "APPLE泰文SDK.entitlements"; sourceTree = "<group>"; };
 		FE7780A823A9C5F3000985D7 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
-		FE80FEC32837376C005E4EC0 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FE8900C923BF17AF00C86C90 /* SocketRocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = SocketRocket.a; sourceTree = "<group>"; };
 		FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DINSDKBundle.bundle; sourceTree = "<group>"; };
-		FE8FC715278FCC700093CB79 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
-		FE8FC716278FCC700093CB79 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
-		FE8FC717278FCC700093CB79 /* PromisesObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PromisesObjC.framework; sourceTree = "<group>"; };
-		FE8FC718278FCC700093CB79 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
-		FE8FC719278FCC700093CB79 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		FE8FC71A278FCC700093CB79 /* UserMessagingPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserMessagingPlatform.framework; sourceTree = "<group>"; };
-		FE8FC71B278FCC700093CB79 /* GoogleAppMeasurementIdentitySupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurementIdentitySupport.framework; sourceTree = "<group>"; };
-		FE8FC71C278FCC700093CB79 /* ISAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISAdMobAdapter.framework; sourceTree = "<group>"; };
-		FE8FC71E278FCC700093CB79 /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSource.framework; sourceTree = "<group>"; };
-		FE8FC721278FCC700093CB79 /* ISFacebookAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISFacebookAdapter.framework; sourceTree = "<group>"; };
 		FE8FC73E278FCD390093CB79 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		FE8FC740278FCD570093CB79 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
-		FE8FC74A278FD1620093CB79 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
 		FE8FC86A278FF37B0093CB79 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = "<group>"; };
 		FE8FC86B278FF37B0093CB79 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
 		FE8FC86C278FF37B0093CB79 /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseRemoteConfig.framework; sourceTree = "<group>"; };
@@ -127,6 +130,35 @@
 		FE918DA62304F826009D1C69 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		FEE7DA292809647800E3B6F4 /* Image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Image.bundle; sourceTree = "<group>"; };
 		FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		FEEEE64B288E4BCA000B4BC7 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
+		FEEEE64E288E4C0F000B4BC7 /* AppLovinSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppLovinSDKResources.bundle; sourceTree = "<group>"; };
+		FEEEE64F288E4C0F000B4BC7 /* PAGAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PAGAdSDK.bundle; sourceTree = "<group>"; };
+		FEEEE652288E4C0F000B4BC7 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
+		FEEEE653288E4C0F000B4BC7 /* ISUnityAdsAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISUnityAdsAdapter.framework; sourceTree = "<group>"; };
+		FEEEE655288E4C0F000B4BC7 /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSource.framework; sourceTree = "<group>"; };
+		FEEEE657288E4C0F000B4BC7 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		FEEEE658288E4C0F000B4BC7 /* ISVungleAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISVungleAdapter.framework; sourceTree = "<group>"; };
+		FEEEE65A288E4C0F000B4BC7 /* Tapjoy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tapjoy.framework; sourceTree = "<group>"; };
+		FEEEE65B288E4C0F000B4BC7 /* ISTapjoyAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISTapjoyAdapter.framework; sourceTree = "<group>"; };
+		FEEEE65D288E4C0F000B4BC7 /* ISAppLovinAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISAppLovinAdapter.framework; sourceTree = "<group>"; };
+		FEEEE65E288E4C0F000B4BC7 /* AppLovinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinSDK.framework; sourceTree = "<group>"; };
+		FEEEE660288E4C0F000B4BC7 /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
+		FEEEE661288E4C0F000B4BC7 /* BURelyAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BURelyAdSDK.framework; sourceTree = "<group>"; };
+		FEEEE662288E4C0F000B4BC7 /* BUVAAuxiliary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUVAAuxiliary.framework; sourceTree = "<group>"; };
+		FEEEE663288E4C0F000B4BC7 /* ISPangleAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISPangleAdapter.framework; sourceTree = "<group>"; };
+		FEEEE664288E4C0F000B4BC7 /* BUFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUFoundation.framework; sourceTree = "<group>"; };
+		FEEEE665288E4C0F000B4BC7 /* PAGAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PAGAdSDK.framework; sourceTree = "<group>"; };
+		FEEEE666288E4C0F000B4BC7 /* BURelyFoundation_Global.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BURelyFoundation_Global.framework; sourceTree = "<group>"; };
+		FEEEE668288E4C0F000B4BC7 /* ISFacebookAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISFacebookAdapter.framework; sourceTree = "<group>"; };
+		FEEEE669288E4C0F000B4BC7 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		FEEEE66B288E4C10000B4BC7 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		FEEEE66C288E4C10000B4BC7 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		FEEEE66D288E4C10000B4BC7 /* PromisesObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PromisesObjC.framework; sourceTree = "<group>"; };
+		FEEEE66E288E4C10000B4BC7 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		FEEEE66F288E4C10000B4BC7 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		FEEEE670288E4C10000B4BC7 /* UserMessagingPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserMessagingPlatform.framework; sourceTree = "<group>"; };
+		FEEEE671288E4C10000B4BC7 /* GoogleAppMeasurementIdentitySupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurementIdentitySupport.framework; sourceTree = "<group>"; };
+		FEEEE672288E4C10000B4BC7 /* ISAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISAdMobAdapter.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,42 +166,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEEEE685288E4C12000B4BC7 /* ISFacebookAdapter.framework in Frameworks */,
 				FE8FC742278FCD740093CB79 /* libc++abi.tbd in Frameworks */,
+				FEEEE687288E4C13000B4BC7 /* GoogleAppMeasurement.framework in Frameworks */,
 				FE8FC876278FF37C0093CB79 /* FirebaseInstallations.framework in Frameworks */,
 				FE8FC741278FCD570093CB79 /* libbz2.1.0.tbd in Frameworks */,
+				FEEEE68E288E4C14000B4BC7 /* ISAdMobAdapter.framework in Frameworks */,
+				FEEEE68C288E4C14000B4BC7 /* UserMessagingPlatform.framework in Frameworks */,
 				FE8FC73F278FCD390093CB79 /* libresolv.tbd in Frameworks */,
 				FE40F6DB2500E80C008F5A08 /* Accelerate.framework in Frameworks */,
-				FE8FC733278FCC700093CB79 /* ISFacebookAdapter.framework in Frameworks */,
-				FE8FC72F278FCC700093CB79 /* GoogleAppMeasurementIdentitySupport.framework in Frameworks */,
 				FE07FD9427F6A8B300CE8B93 /* FoxSDK.framework in Frameworks */,
 				FE73246A27C8B70800ED4DD3 /* AppsFlyerLib.framework in Frameworks */,
-				FE8FC730278FCC700093CB79 /* ISAdMobAdapter.framework in Frameworks */,
+				FEEEE680288E4C11000B4BC7 /* BUVAAuxiliary.framework in Frameworks */,
+				FEEEE67E288E4C11000B4BC7 /* BUAdSDK.framework in Frameworks */,
 				FE8FC873278FF37B0093CB79 /* FirebaseCore.framework in Frameworks */,
 				FE8FC878278FF37C0093CB79 /* FirebaseCoreDiagnostics.framework in Frameworks */,
-				FE80FEC42837376C005E4EC0 /* TeaSDK.framework in Frameworks */,
-				FE8FC72B278FCC700093CB79 /* PromisesObjC.framework in Frameworks */,
+				FEEEE67C288E4C11000B4BC7 /* ISAppLovinAdapter.framework in Frameworks */,
+				FEEEE67B288E4C10000B4BC7 /* ISTapjoyAdapter.framework in Frameworks */,
+				FEEEE675288E4C10000B4BC7 /* UnityAds.framework in Frameworks */,
+				FEEEE64C288E4BCA000B4BC7 /* TeaSDK.framework in Frameworks */,
 				FE176BA6263664D100A712FF /* AppTrackingTransparency.framework in Frameworks */,
-				FE8FC72E278FCC700093CB79 /* UserMessagingPlatform.framework in Frameworks */,
-				FE8FC72A278FCC700093CB79 /* GoogleUtilities.framework in Frameworks */,
+				FEEEE68B288E4C13000B4BC7 /* GoogleMobileAds.framework in Frameworks */,
+				FEEEE688288E4C13000B4BC7 /* GoogleUtilities.framework in Frameworks */,
 				FE5EEDB92608A21B00F349D4 /* DINSDK.framework in Frameworks */,
-				FE8FC72C278FCC700093CB79 /* nanopb.framework in Frameworks */,
 				FE8FC875278FF37B0093CB79 /* FirebaseAnalytics.framework in Frameworks */,
+				FEEEE67A288E4C10000B4BC7 /* Tapjoy.framework in Frameworks */,
+				FEEEE681288E4C11000B4BC7 /* ISPangleAdapter.framework in Frameworks */,
+				FEEEE68A288E4C13000B4BC7 /* nanopb.framework in Frameworks */,
+				FEEEE684288E4C12000B4BC7 /* BURelyFoundation_Global.framework in Frameworks */,
 				FE7780A923A9C5F3000985D7 /* AuthenticationServices.framework in Frameworks */,
+				FEEEE67F288E4C11000B4BC7 /* BURelyAdSDK.framework in Frameworks */,
 				FE0C6A7B2797AB5900F40105 /* FBSDKCoreKit.framework in Frameworks */,
 				FE8FC872278FF37B0093CB79 /* GoogleDataTransport.framework in Frameworks */,
+				FEEEE676288E4C10000B4BC7 /* ISUnityAdsAdapter.framework in Frameworks */,
+				FEEEE678288E4C10000B4BC7 /* VungleSDK.framework in Frameworks */,
+				FEEEE689288E4C13000B4BC7 /* PromisesObjC.framework in Frameworks */,
 				FE38E17B235EFD0600CEEE56 /* libsqlite3.0.tbd in Frameworks */,
-				FE8FC729278FCC700093CB79 /* GoogleAppMeasurement.framework in Frameworks */,
 				FE8FC874278FF37B0093CB79 /* FirebaseRemoteConfig.framework in Frameworks */,
 				FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */,
-				FE8FC74C278FD17F0093CB79 /* FBAudienceNetwork.framework in Frameworks */,
 				FE0C6A7A2797AB5900F40105 /* FBAEMKit.framework in Frameworks */,
-				FE8FC731278FCC700093CB79 /* IronSource.framework in Frameworks */,
+				FEEEE686288E4C12000B4BC7 /* FBAudienceNetwork.framework in Frameworks */,
 				FE8FC877278FF37C0093CB79 /* FirebaseABTesting.framework in Frameworks */,
+				FEEEE68D288E4C14000B4BC7 /* GoogleAppMeasurementIdentitySupport.framework in Frameworks */,
 				FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */,
-				FE8FC72D278FCC700093CB79 /* GoogleMobileAds.framework in Frameworks */,
+				FEEEE682288E4C12000B4BC7 /* BUFoundation.framework in Frameworks */,
+				FEEEE67D288E4C11000B4BC7 /* AppLovinSDK.framework in Frameworks */,
 				FE0C6A7C2797AB5900F40105 /* FBSDKCoreKit_Basics.framework in Frameworks */,
+				FEEEE677288E4C10000B4BC7 /* IronSource.framework in Frameworks */,
 				FE0C6A792797AB5900F40105 /* FBSDKLoginKit.framework in Frameworks */,
+				FEEEE683288E4C12000B4BC7 /* PAGAdSDK.framework in Frameworks */,
 				FE8900DC23BF17B000C86C90 /* SocketRocket.a in Frameworks */,
+				FEEEE679288E4C10000B4BC7 /* ISVungleAdapter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,13 +282,14 @@
 		FE8900B923BF17AF00C86C90 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				FE80FEC32837376C005E4EC0 /* TeaSDK.framework */,
+				FEEEE650288E4C0F000B4BC7 /* IS */,
+				FEEEE64D288E4C0F000B4BC7 /* ISBundle */,
+				FEEEE64B288E4BCA000B4BC7 /* TeaSDK.framework */,
 				FEE7DA292809647800E3B6F4 /* Image.bundle */,
 				FE07FD9227F6A8B300CE8B93 /* FoxSDK.framework */,
 				FE73246627C8B70800ED4DD3 /* AF6.5.2 */,
 				FE0C6A722797AB5800F40105 /* FB12.1.0 */,
 				FE8FC869278FF37B0093CB79 /* Fire8.7.0 */,
-				FE8FC713278FCC700093CB79 /* IS7.1.14 */,
 				FE431C2B24FCF0C0004D439E /* GoogleService-Info.plist */,
 				FE5EEDB82608A21B00F349D4 /* DINSDK.framework */,
 				FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */,
@@ -249,48 +297,6 @@
 				FE8900CC23BF17AF00C86C90 /* DINSDKBundle.bundle */,
 			);
 			path = libs;
-			sourceTree = "<group>";
-		};
-		FE8FC713278FCC700093CB79 /* IS7.1.14 */ = {
-			isa = PBXGroup;
-			children = (
-				FE8FC714278FCC700093CB79 /* AdMob4.3.30 */,
-				FE8FC71D278FCC700093CB79 /* IronSource7.1.14 */,
-				FE8FC71F278FCC700093CB79 /* ISFacebookAdapter4.3.33 */,
-			);
-			path = IS7.1.14;
-			sourceTree = "<group>";
-		};
-		FE8FC714278FCC700093CB79 /* AdMob4.3.30 */ = {
-			isa = PBXGroup;
-			children = (
-				FE8FC715278FCC700093CB79 /* GoogleAppMeasurement.framework */,
-				FE8FC716278FCC700093CB79 /* GoogleUtilities.framework */,
-				FE8FC717278FCC700093CB79 /* PromisesObjC.framework */,
-				FE8FC718278FCC700093CB79 /* nanopb.framework */,
-				FE8FC719278FCC700093CB79 /* GoogleMobileAds.framework */,
-				FE8FC71A278FCC700093CB79 /* UserMessagingPlatform.framework */,
-				FE8FC71B278FCC700093CB79 /* GoogleAppMeasurementIdentitySupport.framework */,
-				FE8FC71C278FCC700093CB79 /* ISAdMobAdapter.framework */,
-			);
-			path = AdMob4.3.30;
-			sourceTree = "<group>";
-		};
-		FE8FC71D278FCC700093CB79 /* IronSource7.1.14 */ = {
-			isa = PBXGroup;
-			children = (
-				FE8FC71E278FCC700093CB79 /* IronSource.framework */,
-			);
-			path = IronSource7.1.14;
-			sourceTree = "<group>";
-		};
-		FE8FC71F278FCC700093CB79 /* ISFacebookAdapter4.3.33 */ = {
-			isa = PBXGroup;
-			children = (
-				FE8FC74A278FD1620093CB79 /* FBAudienceNetwork.framework */,
-				FE8FC721278FCC700093CB79 /* ISFacebookAdapter.framework */,
-			);
-			path = ISFacebookAdapter4.3.33;
 			sourceTree = "<group>";
 		};
 		FE8FC869278FF37B0093CB79 /* Fire8.7.0 */ = {
@@ -323,6 +329,112 @@
 				FE918DA02304ED97009D1C69 /* libicucore.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEEEE64D288E4C0F000B4BC7 /* ISBundle */ = {
+			isa = PBXGroup;
+			children = (
+				FEEEE64E288E4C0F000B4BC7 /* AppLovinSDKResources.bundle */,
+				FEEEE64F288E4C0F000B4BC7 /* PAGAdSDK.bundle */,
+			);
+			path = ISBundle;
+			sourceTree = "<group>";
+		};
+		FEEEE650288E4C0F000B4BC7 /* IS */ = {
+			isa = PBXGroup;
+			children = (
+				FEEEE651288E4C0F000B4BC7 /* Unity */,
+				FEEEE654288E4C0F000B4BC7 /* IronSource7.2.3.1 */,
+				FEEEE656288E4C0F000B4BC7 /* Vungle */,
+				FEEEE659288E4C0F000B4BC7 /* Tapjoy */,
+				FEEEE65C288E4C0F000B4BC7 /* Applovin */,
+				FEEEE65F288E4C0F000B4BC7 /* Pangle */,
+				FEEEE667288E4C0F000B4BC7 /* Meta */,
+				FEEEE66A288E4C10000B4BC7 /* Admob */,
+			);
+			path = IS;
+			sourceTree = "<group>";
+		};
+		FEEEE651288E4C0F000B4BC7 /* Unity */ = {
+			isa = PBXGroup;
+			children = (
+				FEEEE652288E4C0F000B4BC7 /* UnityAds.framework */,
+				FEEEE653288E4C0F000B4BC7 /* ISUnityAdsAdapter.framework */,
+			);
+			path = Unity;
+			sourceTree = "<group>";
+		};
+		FEEEE654288E4C0F000B4BC7 /* IronSource7.2.3.1 */ = {
+			isa = PBXGroup;
+			children = (
+				FEEEE655288E4C0F000B4BC7 /* IronSource.framework */,
+			);
+			path = IronSource7.2.3.1;
+			sourceTree = "<group>";
+		};
+		FEEEE656288E4C0F000B4BC7 /* Vungle */ = {
+			isa = PBXGroup;
+			children = (
+				FEEEE657288E4C0F000B4BC7 /* VungleSDK.framework */,
+				FEEEE658288E4C0F000B4BC7 /* ISVungleAdapter.framework */,
+			);
+			path = Vungle;
+			sourceTree = "<group>";
+		};
+		FEEEE659288E4C0F000B4BC7 /* Tapjoy */ = {
+			isa = PBXGroup;
+			children = (
+				FEEEE65A288E4C0F000B4BC7 /* Tapjoy.framework */,
+				FEEEE65B288E4C0F000B4BC7 /* ISTapjoyAdapter.framework */,
+			);
+			path = Tapjoy;
+			sourceTree = "<group>";
+		};
+		FEEEE65C288E4C0F000B4BC7 /* Applovin */ = {
+			isa = PBXGroup;
+			children = (
+				FEEEE65D288E4C0F000B4BC7 /* ISAppLovinAdapter.framework */,
+				FEEEE65E288E4C0F000B4BC7 /* AppLovinSDK.framework */,
+			);
+			path = Applovin;
+			sourceTree = "<group>";
+		};
+		FEEEE65F288E4C0F000B4BC7 /* Pangle */ = {
+			isa = PBXGroup;
+			children = (
+				FEEEE660288E4C0F000B4BC7 /* BUAdSDK.framework */,
+				FEEEE661288E4C0F000B4BC7 /* BURelyAdSDK.framework */,
+				FEEEE662288E4C0F000B4BC7 /* BUVAAuxiliary.framework */,
+				FEEEE663288E4C0F000B4BC7 /* ISPangleAdapter.framework */,
+				FEEEE664288E4C0F000B4BC7 /* BUFoundation.framework */,
+				FEEEE665288E4C0F000B4BC7 /* PAGAdSDK.framework */,
+				FEEEE666288E4C0F000B4BC7 /* BURelyFoundation_Global.framework */,
+			);
+			path = Pangle;
+			sourceTree = "<group>";
+		};
+		FEEEE667288E4C0F000B4BC7 /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				FEEEE668288E4C0F000B4BC7 /* ISFacebookAdapter.framework */,
+				FEEEE669288E4C0F000B4BC7 /* FBAudienceNetwork.framework */,
+			);
+			path = Meta;
+			sourceTree = "<group>";
+		};
+		FEEEE66A288E4C10000B4BC7 /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				FEEEE66B288E4C10000B4BC7 /* GoogleAppMeasurement.framework */,
+				FEEEE66C288E4C10000B4BC7 /* GoogleUtilities.framework */,
+				FEEEE66D288E4C10000B4BC7 /* PromisesObjC.framework */,
+				FEEEE66E288E4C10000B4BC7 /* nanopb.framework */,
+				FEEEE66F288E4C10000B4BC7 /* GoogleMobileAds.framework */,
+				FEEEE670288E4C10000B4BC7 /* UserMessagingPlatform.framework */,
+				FEEEE671288E4C10000B4BC7 /* GoogleAppMeasurementIdentitySupport.framework */,
+				FEEEE672288E4C10000B4BC7 /* ISAdMobAdapter.framework */,
+			);
+			path = Admob;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,6 +497,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEEACBC12581AB2C00BFA6B4 /* SVProgressHUD.bundle in Resources */,
+				FEEEE673288E4C10000B4BC7 /* AppLovinSDKResources.bundle in Resources */,
+				FEEEE674288E4C10000B4BC7 /* PAGAdSDK.bundle in Resources */,
 				FEE7DA2B2809647800E3B6F4 /* Image.bundle in Resources */,
 				FE8900DF23BF17B000C86C90 /* DINSDKBundle.bundle in Resources */,
 				FE66F85C2254566100E41A6A /* LaunchScreen.storyboard in Resources */,
@@ -581,6 +695,14 @@
 					"$(PROJECT_DIR)/NewSDKDemo/libs/Fire8.7.0",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/FB12.1.0",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/AF6.5.2",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/Unity",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/IronSource7.2.3.1",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/Vungle",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/Tapjoy",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/Applovin",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/Pangle",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/Meta",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/Admob",
 				);
 				INFOPLIST_FILE = NewSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -643,6 +765,14 @@
 					"$(PROJECT_DIR)/NewSDKDemo/libs/Fire8.7.0",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/FB12.1.0",
 					"$(PROJECT_DIR)/NewSDKDemo/libs/AF6.5.2",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/Unity",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/IronSource7.2.3.1",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/Vungle",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/Tapjoy",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/Applovin",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/Pangle",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/Meta",
+					"$(PROJECT_DIR)/NewSDKDemo/libs/IS/Admob",
 				);
 				INFOPLIST_FILE = NewSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
