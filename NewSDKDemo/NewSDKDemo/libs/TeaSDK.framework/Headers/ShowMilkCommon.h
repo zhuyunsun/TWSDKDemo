@@ -4,8 +4,8 @@
 #import <AuthenticationServices/AuthenticationServices.h>
 NS_ASSUME_NONNULL_BEGIN
 UIKIT_STATIC_INLINE NSString *MY_SDK_VERSION(){
-    NSString *SDKVERSION = @"2.4.7";
-    NSLog(@"TW__2022.7.25版本: = %@",SDKVERSION);
+    NSString *SDKVERSION = @"2.4.8";
+    NSLog(@"TW__2022.7.26版本: = %@",SDKVERSION);
     return SDKVERSION;
 }
 /*
@@ -43,6 +43,13 @@ UIKIT_STATIC_INLINE NSString* enter_show(){
     return @"game_completed";//进入游戏
 }
 
+
+
+typedef void(^WriteblockSuccess)(void);
+typedef void(^WriteblockFail)(void);
+typedef void(^WriteblockClose)(void);
+
+
 @protocol LgDelegate,SerDelegate,ReDelegate;
 @interface ShowMilkCommon : NSObject <ASAuthorizationControllerDelegate,ASAuthorizationControllerPresentationContextProviding>
 @property(nonatomic,copy)NSDictionary *mgDic;
@@ -50,7 +57,14 @@ UIKIT_STATIC_INLINE NSString* enter_show(){
 @property(nonatomic,weak)id<LgDelegate>delegate;
 @property(nonatomic,weak)id<SerDelegate>SEDelegate;
 @property(nonatomic,weak)id<ReDelegate>ReDelegate;
+
+@property(nonatomic,copy)WriteblockSuccess a1;
+@property(nonatomic,copy)WriteblockFail a2;
+@property(nonatomic,copy)WriteblockClose a3;
+
 +(ShowMilkCommon *)shareInstance;
+///账号注销,要在登陆成功之后调用.(注意,成功调用了该接口之后,要重新调用登陆接口),返回注销成功,注册失败,关闭注销界面状态
+-(void)writeOffAccountSuccess:(WriteblockSuccess)succcess fail:(WriteblockFail)fail close:(WriteblockClose)close;
 -(void)loginDefaultStyle;//没有登录界面的的登陆方式
 -(void)loginAutoIN:(BOOL)isAuto;//展示登陆界面:在游戏登录界面传YES,在游戏里面切换账号传NO
 -(void)hdLgView;//移除登陆和注册界面

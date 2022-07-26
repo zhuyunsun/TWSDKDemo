@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE07FD9427F6A8B300CE8B93 /* FoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE07FD9227F6A8B300CE8B93 /* FoxSDK.framework */; };
 		FE0C6A792797AB5900F40105 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0C6A732797AB5800F40105 /* FBSDKLoginKit.framework */; };
 		FE0C6A7A2797AB5900F40105 /* FBAEMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0C6A742797AB5800F40105 /* FBAEMKit.framework */; };
 		FE0C6A7B2797AB5900F40105 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0C6A752797AB5800F40105 /* FBSDKCoreKit.framework */; };
@@ -42,7 +41,6 @@
 		FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA22304F7DA009D1C69 /* libc++.tbd */; };
 		FEE7DA2B2809647800E3B6F4 /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEE7DA292809647800E3B6F4 /* Image.bundle */; };
 		FEEACBC12581AB2C00BFA6B4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */; };
-		FEEEE64C288E4BCA000B4BC7 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE64B288E4BCA000B4BC7 /* TeaSDK.framework */; };
 		FEEEE673288E4C10000B4BC7 /* AppLovinSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEEE64E288E4C0F000B4BC7 /* AppLovinSDKResources.bundle */; };
 		FEEEE674288E4C10000B4BC7 /* PAGAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEEE64F288E4C0F000B4BC7 /* PAGAdSDK.bundle */; };
 		FEEEE675288E4C10000B4BC7 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE652288E4C0F000B4BC7 /* UnityAds.framework */; };
@@ -71,6 +69,8 @@
 		FEEEE68C288E4C14000B4BC7 /* UserMessagingPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE670288E4C10000B4BC7 /* UserMessagingPlatform.framework */; };
 		FEEEE68D288E4C14000B4BC7 /* GoogleAppMeasurementIdentitySupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE671288E4C10000B4BC7 /* GoogleAppMeasurementIdentitySupport.framework */; };
 		FEEEE68E288E4C14000B4BC7 /* ISAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE672288E4C10000B4BC7 /* ISAdMobAdapter.framework */; };
+		FEEEE69E288FEC28000B4BC7 /* FoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE69C288FEC28000B4BC7 /* FoxSDK.framework */; };
+		FEEEE69F288FEC29000B4BC7 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE69D288FEC28000B4BC7 /* TeaSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -87,7 +87,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FE07FD9227F6A8B300CE8B93 /* FoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FoxSDK.framework; sourceTree = "<group>"; };
 		FE0C6A732797AB5800F40105 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FE0C6A742797AB5800F40105 /* FBAEMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAEMKit.framework; sourceTree = "<group>"; };
 		FE0C6A752797AB5800F40105 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
@@ -130,7 +129,6 @@
 		FE918DA62304F826009D1C69 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		FEE7DA292809647800E3B6F4 /* Image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Image.bundle; sourceTree = "<group>"; };
 		FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
-		FEEEE64B288E4BCA000B4BC7 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FEEEE64E288E4C0F000B4BC7 /* AppLovinSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppLovinSDKResources.bundle; sourceTree = "<group>"; };
 		FEEEE64F288E4C0F000B4BC7 /* PAGAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PAGAdSDK.bundle; sourceTree = "<group>"; };
 		FEEEE652288E4C0F000B4BC7 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
@@ -159,6 +157,8 @@
 		FEEEE670288E4C10000B4BC7 /* UserMessagingPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UserMessagingPlatform.framework; sourceTree = "<group>"; };
 		FEEEE671288E4C10000B4BC7 /* GoogleAppMeasurementIdentitySupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurementIdentitySupport.framework; sourceTree = "<group>"; };
 		FEEEE672288E4C10000B4BC7 /* ISAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISAdMobAdapter.framework; sourceTree = "<group>"; };
+		FEEEE69C288FEC28000B4BC7 /* FoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FoxSDK.framework; sourceTree = "<group>"; };
+		FEEEE69D288FEC28000B4BC7 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +175,6 @@
 				FEEEE68C288E4C14000B4BC7 /* UserMessagingPlatform.framework in Frameworks */,
 				FE8FC73F278FCD390093CB79 /* libresolv.tbd in Frameworks */,
 				FE40F6DB2500E80C008F5A08 /* Accelerate.framework in Frameworks */,
-				FE07FD9427F6A8B300CE8B93 /* FoxSDK.framework in Frameworks */,
 				FE73246A27C8B70800ED4DD3 /* AppsFlyerLib.framework in Frameworks */,
 				FEEEE680288E4C11000B4BC7 /* BUVAAuxiliary.framework in Frameworks */,
 				FEEEE67E288E4C11000B4BC7 /* BUAdSDK.framework in Frameworks */,
@@ -184,7 +183,6 @@
 				FEEEE67C288E4C11000B4BC7 /* ISAppLovinAdapter.framework in Frameworks */,
 				FEEEE67B288E4C10000B4BC7 /* ISTapjoyAdapter.framework in Frameworks */,
 				FEEEE675288E4C10000B4BC7 /* UnityAds.framework in Frameworks */,
-				FEEEE64C288E4BCA000B4BC7 /* TeaSDK.framework in Frameworks */,
 				FE176BA6263664D100A712FF /* AppTrackingTransparency.framework in Frameworks */,
 				FEEEE68B288E4C13000B4BC7 /* GoogleMobileAds.framework in Frameworks */,
 				FEEEE688288E4C13000B4BC7 /* GoogleUtilities.framework in Frameworks */,
@@ -210,9 +208,11 @@
 				FEEEE68D288E4C14000B4BC7 /* GoogleAppMeasurementIdentitySupport.framework in Frameworks */,
 				FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */,
 				FEEEE682288E4C12000B4BC7 /* BUFoundation.framework in Frameworks */,
+				FEEEE69F288FEC29000B4BC7 /* TeaSDK.framework in Frameworks */,
 				FEEEE67D288E4C11000B4BC7 /* AppLovinSDK.framework in Frameworks */,
 				FE0C6A7C2797AB5900F40105 /* FBSDKCoreKit_Basics.framework in Frameworks */,
 				FEEEE677288E4C10000B4BC7 /* IronSource.framework in Frameworks */,
+				FEEEE69E288FEC28000B4BC7 /* FoxSDK.framework in Frameworks */,
 				FE0C6A792797AB5900F40105 /* FBSDKLoginKit.framework in Frameworks */,
 				FEEEE683288E4C12000B4BC7 /* PAGAdSDK.framework in Frameworks */,
 				FE8900DC23BF17B000C86C90 /* SocketRocket.a in Frameworks */,
@@ -282,11 +282,11 @@
 		FE8900B923BF17AF00C86C90 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				FEEEE69C288FEC28000B4BC7 /* FoxSDK.framework */,
+				FEEEE69D288FEC28000B4BC7 /* TeaSDK.framework */,
 				FEEEE650288E4C0F000B4BC7 /* IS */,
 				FEEEE64D288E4C0F000B4BC7 /* ISBundle */,
-				FEEEE64B288E4BCA000B4BC7 /* TeaSDK.framework */,
 				FEE7DA292809647800E3B6F4 /* Image.bundle */,
-				FE07FD9227F6A8B300CE8B93 /* FoxSDK.framework */,
 				FE73246627C8B70800ED4DD3 /* AF6.5.2 */,
 				FE0C6A722797AB5800F40105 /* FB12.1.0 */,
 				FE8FC869278FF37B0093CB79 /* Fire8.7.0 */,
