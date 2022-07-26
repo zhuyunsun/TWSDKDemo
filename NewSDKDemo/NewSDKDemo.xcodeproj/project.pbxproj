@@ -39,7 +39,6 @@
 		FE8FC878278FF37C0093CB79 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC871278FF37B0093CB79 /* FirebaseCoreDiagnostics.framework */; };
 		FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA02304ED97009D1C69 /* libicucore.tbd */; };
 		FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA22304F7DA009D1C69 /* libc++.tbd */; };
-		FEE7DA2B2809647800E3B6F4 /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEE7DA292809647800E3B6F4 /* Image.bundle */; };
 		FEEACBC12581AB2C00BFA6B4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */; };
 		FEEEE673288E4C10000B4BC7 /* AppLovinSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEEE64E288E4C0F000B4BC7 /* AppLovinSDKResources.bundle */; };
 		FEEEE674288E4C10000B4BC7 /* PAGAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEEE64F288E4C0F000B4BC7 /* PAGAdSDK.bundle */; };
@@ -71,6 +70,7 @@
 		FEEEE68E288E4C14000B4BC7 /* ISAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE672288E4C10000B4BC7 /* ISAdMobAdapter.framework */; };
 		FEEEE69E288FEC28000B4BC7 /* FoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE69C288FEC28000B4BC7 /* FoxSDK.framework */; };
 		FEEEE69F288FEC29000B4BC7 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE69D288FEC28000B4BC7 /* TeaSDK.framework */; };
+		FEEEE6B0288FEE63000B4BC7 /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEEE6AF288FEE63000B4BC7 /* Image.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -127,7 +127,6 @@
 		FE918DA22304F7DA009D1C69 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		FE918DA42304F803009D1C69 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		FE918DA62304F826009D1C69 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
-		FEE7DA292809647800E3B6F4 /* Image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Image.bundle; sourceTree = "<group>"; };
 		FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		FEEEE64E288E4C0F000B4BC7 /* AppLovinSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppLovinSDKResources.bundle; sourceTree = "<group>"; };
 		FEEEE64F288E4C0F000B4BC7 /* PAGAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PAGAdSDK.bundle; sourceTree = "<group>"; };
@@ -159,6 +158,7 @@
 		FEEEE672288E4C10000B4BC7 /* ISAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISAdMobAdapter.framework; sourceTree = "<group>"; };
 		FEEEE69C288FEC28000B4BC7 /* FoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FoxSDK.framework; sourceTree = "<group>"; };
 		FEEEE69D288FEC28000B4BC7 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
+		FEEEE6AF288FEE63000B4BC7 /* Image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Image.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,11 +286,11 @@
 				FEEEE69D288FEC28000B4BC7 /* TeaSDK.framework */,
 				FEEEE650288E4C0F000B4BC7 /* IS */,
 				FEEEE64D288E4C0F000B4BC7 /* ISBundle */,
-				FEE7DA292809647800E3B6F4 /* Image.bundle */,
 				FE73246627C8B70800ED4DD3 /* AF6.5.2 */,
 				FE0C6A722797AB5800F40105 /* FB12.1.0 */,
 				FE8FC869278FF37B0093CB79 /* Fire8.7.0 */,
 				FE431C2B24FCF0C0004D439E /* GoogleService-Info.plist */,
+				FEEEE6AF288FEE63000B4BC7 /* Image.bundle */,
 				FE5EEDB82608A21B00F349D4 /* DINSDK.framework */,
 				FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */,
 				FE8900C923BF17AF00C86C90 /* SocketRocket.a */,
@@ -496,10 +496,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEEEE6B0288FEE63000B4BC7 /* Image.bundle in Resources */,
 				FEEACBC12581AB2C00BFA6B4 /* SVProgressHUD.bundle in Resources */,
 				FEEEE673288E4C10000B4BC7 /* AppLovinSDKResources.bundle in Resources */,
 				FEEEE674288E4C10000B4BC7 /* PAGAdSDK.bundle in Resources */,
-				FEE7DA2B2809647800E3B6F4 /* Image.bundle in Resources */,
 				FE8900DF23BF17B000C86C90 /* DINSDKBundle.bundle in Resources */,
 				FE66F85C2254566100E41A6A /* LaunchScreen.storyboard in Resources */,
 				FE66F8592254566100E41A6A /* Assets.xcassets in Resources */,
