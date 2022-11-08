@@ -39,6 +39,7 @@
 		FE8FC878278FF37C0093CB79 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8FC871278FF37B0093CB79 /* FirebaseCoreDiagnostics.framework */; };
 		FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA02304ED97009D1C69 /* libicucore.tbd */; };
 		FE918DA32304F7DA009D1C69 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE918DA22304F7DA009D1C69 /* libc++.tbd */; };
+		FEB8F0FE2919EDCE00724461 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB8F0FD2919EDCE00724461 /* TeaSDK.framework */; };
 		FEEACBC12581AB2C00BFA6B4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */; };
 		FEEEE673288E4C10000B4BC7 /* AppLovinSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEEE64E288E4C0F000B4BC7 /* AppLovinSDKResources.bundle */; };
 		FEEEE674288E4C10000B4BC7 /* PAGAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEEE64F288E4C0F000B4BC7 /* PAGAdSDK.bundle */; };
@@ -69,7 +70,6 @@
 		FEEEE68D288E4C14000B4BC7 /* GoogleAppMeasurementIdentitySupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE671288E4C10000B4BC7 /* GoogleAppMeasurementIdentitySupport.framework */; };
 		FEEEE68E288E4C14000B4BC7 /* ISAdMobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE672288E4C10000B4BC7 /* ISAdMobAdapter.framework */; };
 		FEEEE69E288FEC28000B4BC7 /* FoxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE69C288FEC28000B4BC7 /* FoxSDK.framework */; };
-		FEEEE69F288FEC29000B4BC7 /* TeaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEE69D288FEC28000B4BC7 /* TeaSDK.framework */; };
 		FEEEE6B0288FEE63000B4BC7 /* Image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEEEE6AF288FEE63000B4BC7 /* Image.bundle */; };
 /* End PBXBuildFile section */
 
@@ -127,6 +127,7 @@
 		FE918DA22304F7DA009D1C69 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		FE918DA42304F803009D1C69 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		FE918DA62304F826009D1C69 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		FEB8F0FD2919EDCE00724461 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FEEACBC02581AB2C00BFA6B4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		FEEEE64E288E4C0F000B4BC7 /* AppLovinSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppLovinSDKResources.bundle; sourceTree = "<group>"; };
 		FEEEE64F288E4C0F000B4BC7 /* PAGAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PAGAdSDK.bundle; sourceTree = "<group>"; };
@@ -157,7 +158,6 @@
 		FEEEE671288E4C10000B4BC7 /* GoogleAppMeasurementIdentitySupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurementIdentitySupport.framework; sourceTree = "<group>"; };
 		FEEEE672288E4C10000B4BC7 /* ISAdMobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ISAdMobAdapter.framework; sourceTree = "<group>"; };
 		FEEEE69C288FEC28000B4BC7 /* FoxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FoxSDK.framework; sourceTree = "<group>"; };
-		FEEEE69D288FEC28000B4BC7 /* TeaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TeaSDK.framework; sourceTree = "<group>"; };
 		FEEEE6AF288FEE63000B4BC7 /* Image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Image.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -208,7 +208,7 @@
 				FEEEE68D288E4C14000B4BC7 /* GoogleAppMeasurementIdentitySupport.framework in Frameworks */,
 				FE918DA12304ED97009D1C69 /* libicucore.tbd in Frameworks */,
 				FEEEE682288E4C12000B4BC7 /* BUFoundation.framework in Frameworks */,
-				FEEEE69F288FEC29000B4BC7 /* TeaSDK.framework in Frameworks */,
+				FEB8F0FE2919EDCE00724461 /* TeaSDK.framework in Frameworks */,
 				FEEEE67D288E4C11000B4BC7 /* AppLovinSDK.framework in Frameworks */,
 				FE0C6A7C2797AB5900F40105 /* FBSDKCoreKit_Basics.framework in Frameworks */,
 				FEEEE677288E4C10000B4BC7 /* IronSource.framework in Frameworks */,
@@ -282,8 +282,8 @@
 		FE8900B923BF17AF00C86C90 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				FEB8F0FD2919EDCE00724461 /* TeaSDK.framework */,
 				FEEEE69C288FEC28000B4BC7 /* FoxSDK.framework */,
-				FEEEE69D288FEC28000B4BC7 /* TeaSDK.framework */,
 				FEEEE650288E4C0F000B4BC7 /* IS */,
 				FEEEE64D288E4C0F000B4BC7 /* ISBundle */,
 				FE73246627C8B70800ED4DD3 /* AF6.5.2 */,
