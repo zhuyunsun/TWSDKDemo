@@ -4,8 +4,8 @@
 #import <AuthenticationServices/AuthenticationServices.h>
 NS_ASSUME_NONNULL_BEGIN
 UIKIT_STATIC_INLINE NSString *MY_SDK_VERSION(){
-    NSString *SDKVERSION = @"2.4.9";
-    NSLog(@"TW__2022.10.24版本: = %@",SDKVERSION);
+    NSString *SDKVERSION = @"2.5.2";
+    NSLog(@"TW__2022.11.18版本: = %@",SDKVERSION);
     return SDKVERSION;
 }
 /*
@@ -73,6 +73,7 @@ typedef void(^WriteblockClose)(void);
 -(void)userManager;//不是游客登录时,弹出用户中心(包含手机绑定和修改密码),游客状态登录该接口不会有操作
 -(LoginType)getLoginType;//获取当前登录用户类型;
 -(void)contactGM;//联系客服请在(登录)和(调用角色检查接口↓)后调用
+-(void)showNoticeView;///公告
 -(BOOL)goToAppsDetail;//跳转APPSTORE评价
 //其他接口
 -(void)activThisAPP;
